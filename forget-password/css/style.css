@@ -1,0 +1,120 @@
+body {
+  overflow: hidden;
+  background-color: rgb(23, 69, 121);
+}
+
+.general {
+  background: url("../img/minius.jpg") no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: #0d0d0d;
+  width: 400px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.logo-resilia {
+  color: #ffd000;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 58px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.logo-flix {
+  background-image: linear-gradient(to right, #07cbbf, #01a9ce);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: -26px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 70%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.new-password {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #35bbf2;
+  font-size: 12px;
+  margin-top: 30px;
+  position: absolute;
+  pointer-events: none;
+  transition: all.3s ease;
+}
+
+.input-new-password:focus ~ label,
+.input-new-password:valid ~ label {
+  font-size: 9px;
+  transform: translateY(-22px);
+}
+
+.input-new-password {
+  background: none;
+  color: #f5f1f1;
+  font-size: 20px;
+  width: 98%;
+  height: 35px;
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid #f2f2f2;
+  outline: none;
+}
+
+.btn-create-password {
+  background: #686666;
+  height: 50px;
+  border-radius: 7px;
+  border: none;
+  color: #b4b3b3;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.btn-create-password:hover {
+  background: #ffd000;
+  transition: 0.5s ease;
+  color: #0d0d0d;
+}
+
+.bi-eye {
+  position: absolute;
+  color: #ffd000;
+  margin-left: -18px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.div-password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
