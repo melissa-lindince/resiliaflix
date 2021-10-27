@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+.login {
+    background-color: #0D0D0D;
+    width: 606px;
+    height: 754px;
+    display: flex;
+    justify-content: center;
+}
+
+#nome, #senha {
+    width: 454px;
+    height: 44px;
+}
+
+.background {
+    background-image: url("https://images.unsplash.com/photo-1515041219749-89347f83291a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-resilia {
+    color: #FFD000;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 58px;
+    font-size: 30px;
+}
+
+.logo-flix {
+    background-image: linear-gradient(to right, #07CBBF, #01A9CE);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.recupera-senha, .mensagem-cadastro {
+    color: #35BBF2;
+    font-family: Arial, Helvetica, sans-serif;
+}
