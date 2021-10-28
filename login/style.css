@@ -4,21 +4,32 @@ body {
 
 .login {
     background-color: #0D0D0D;
-    width: 606px;
-    height: 754px;
+    width: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
+    border-radius: 12px;
+
 }
 
 #nome, #senha {
-    width: 454px;
-    height: 44px;
+    width: 334px;
+    height: 34px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid cornsilk;
+    margin-bottom: 0px;
+}
+
+#nome {
+    margin-top: 20px;
 }
 
 .background {
     background-image: url("https://images.unsplash.com/photo-1515041219749-89347f83291a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -27,14 +38,23 @@ body {
     align-items: center;
 }
 
-.logo-resilia {
+.logo-resilia img {
     color: #FFD000;
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 58px;
     font-size: 30px;
+    width: 45%;
+    
 }
+
+.logo-resilia {
+    display: flex;
+    justify-content: center;
+
+}
+
 
 .logo-flix {
     background-image: linear-gradient(to right, #07CBBF, #01A9CE);
@@ -51,4 +71,59 @@ body {
 .recupera-senha, .mensagem-cadastro {
     color: #35BBF2;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.mensagem-cadastro {
+    color: cornsilk;
+}
+
+
+#botao-entrar {
+    margin-bottom: 20px;
+    width: 360px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #8C8C8C;
+    color: #B4B3B3;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.div-botao-entrar {
+    display: flex;
+    align-items: center;
+ 
+}
+
+
+.div-cadastro {
+    display: flex;
+    border-bottom: 1px solid cornsilk;
+    margin-bottom: 20px
+
+}
+
+.mensagem-cadastro {
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+#botao-cadastro {
+    background: none;
+    border: none;
+    color:#35BBF2;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#botao-acesso-techtalents {
+    margin-bottom: 20px;
+    width: 360px;
+    height: 40px;
+    background: none;
+    border-style: solid;
+    border-color: #FFD000; 
+    color:#FFD000;
+    border-radius: 12px;
 }
