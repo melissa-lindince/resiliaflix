@@ -1,162 +1,164 @@
 body {
-    overflow: hidden;
-    background-image: url("https://images.unsplash.com/photo-1515041219749-89347f83291a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  overflow: hidden;
+  background-image: url("https://images.unsplash.com/photo-1515041219749-89347f83291a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .general {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container  {
-    background-color: #0D0D0D;
-    width: 400px;
-    height: 500px;
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
+.container {
+  background-color: #0d0d0d;
+  width: 400px;
+  height: 500px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
 }
 
 .login-form {
-    width: 80%;
-
+  width: 80%;
 }
 
 .logo-resilia {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .logo-resilia img {
-    color: #FFD000;
-    display: flex;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 58px;
-    font-size: 30px;
-    width: 45%;
+  color: #ffd000;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 58px;
+  font-size: 30px;
+  width: 45%;
 }
 
-#nome, #senha {
-    width: 100%;
-    height: 34px;
-    background: none;
-    border: none;
-    border-bottom: 1px solid #f2f2f2;
-    outline: none;
-    color: white;
-    margin-top: 10px;
-    font-size: 14px;
+#nome,
+#senha {
+  width: 100%;
+  height: 34px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #f2f2f2;
+  outline: none;
+  color: white;
+  margin-top: 10px;
+  font-size: 14px;
 }
 
-#nome, #botao-entrar{
-    margin-top: 20px;
+#nome,
+#botao-entrar {
+  margin-top: 20px;
 }
 
 #botao-entrar:hover {
-    background: #ffd000;
-    transition: 0.5s ease;
-    color: #0d0d0d;
-    cursor: pointer;
-  }
+  background: #ffd000;
+  transition: 0.5s ease;
+  color: #0d0d0d;
+  cursor: pointer;
+}
 
 .recupera-senha {
-    color: #35BBF2;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-  
+  color: #35bbf2;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
 }
 
 .mensagem-cadastro {
-    color: #35BBF2;
-    font-family: Arial, Helvetica, sans-serif;
+  color: #35bbf2;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .mensagem-cadastro {
-    color: cornsilk;
-
+  color: cornsilk;
 }
 
 .div-botao-entrar {
-    display: flex;
-    align-items: center;
-    width: 93%;
+  display: flex;
+  align-items: center;
+  width: 93%;
 }
 
 #botao-entrar {
-    margin-bottom: 20px;
-    width: 360px;
-    height: 40px;
-    border-radius: 8px;
-    background-color: #8C8C8C;
-    color: #B4B3B3;
-    font-weight: bold;
-    font-size: 20px;
-    border: none;
-    transition: 0.2s linear;
+  margin-bottom: 20px;
+  width: 360px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #8c8c8c;
+  color: #b4b3b3;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  transition: 0.2s linear;
 }
 
 .div-cadastro {
-    display: flex;
-    border-bottom: 1px solid cornsilk; 
-    margin-bottom: 20px;
+  display: flex;
+  border-bottom: 1px solid cornsilk;
+  margin-bottom: 20px;
 }
 
 .mensagem-cadastro {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
 #botao-cadastro {
-    background: none;
-    border: none;
-    color:#35BBF2;
-    font-weight: bold;
+  background: none;
+  border: none;
+  color: #35bbf2;
+  font-weight: bold;
 }
 
 .div-techtalents {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #botao-acesso-techtalents {
-    width: 250px;
-    height: 40px;
-    margin-top: 20px;
-    background: none;
-    border-style: solid;
-    border-color: #FFD000; 
-    color:#FFD000;
-    border-radius: 12px;
-    cursor: pointer;
+  width: 250px;
+  height: 40px;
+  margin-top: 20px;
+  background: none;
+  border-style: solid;
+  border-color: #ffd000;
+  color: #ffd000;
+  border-radius: 12px;
+  cursor: pointer;
 }
 
-
 label {
-    color: #35bcf2cb;
-    font-size: 15px;
-    margin-top: -19px;
-    position: absolute;
-    pointer-events: none;
-    transition: all.3s ease;
-  }
- 
-  input:focus ~ label,
-  input:valid ~ label {
-    font-size: 12px;
-    transform: translateY(-18px);
-  }
+  color: #35bcf2cb;
+  font-size: 15px;
+  margin-top: -19px;
+  position: absolute;
+  pointer-events: none;
+  transition: all.3s ease;
+}
 
-  .bi-eye {
-    position: absolute;
-    color: #ffd000;
-    margin-left: 307px;
-    margin-top: -19px;
-    cursor: pointer;
-  }
- 
+input:focus ~ label,
+input:valid ~ label {
+  font-size: 12px;
+  transform: translateY(-18px);
+}
+
+.bi-eye {
+  position: absolute;
+  color: #ffd000;
+  margin-left: 307px;
+  margin-top: -19px;
+  cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #35bcf2cb;
+}

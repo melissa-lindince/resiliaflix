@@ -12,6 +12,8 @@ h2 {
     min-height: 100vh;
     width: 100vw;
     background: url('../img/minius3.jpg');
+    overflow: hidden;
+
 }
 
 .container {
@@ -20,7 +22,9 @@ h2 {
     background: rgba(10, 10, 10);
     border-radius: 5px;
     color: white;
-    box-shadow: 0px 0px 0.2vh 0px rgba(216, 209, 202, 0.5);  
+    box-shadow: 0px 0px 0.2vh 0px rgba(216, 209, 202, 0.5); 
+    overflow: hidden;
+
 }
 
 /******Title*********/
@@ -43,6 +47,7 @@ h2 {
     height: 100%;
     display: flex;
     flex-direction: column;
+    overflow:visible;
     
   
    
@@ -51,10 +56,16 @@ h2 {
 .form-outer .form {
   display: flex;
   width: 1900px;
+  transition: margin-left 0.3s ease-in-out;
+  overflow: hidden;
+  
+
 }
 
 .form-outer .form .page-sign-up {
     transition: margin-left 0.3s ease-in-out;
+    overflow: hidden;
+
 }
 
 .page-sign-up {
@@ -62,15 +73,21 @@ h2 {
     flex-direction: column;
     align-items: center;
     width: 550px;
+    overflow: hidden;
+
+   
    
 }
 /*************contact page****************/
 .contact-page {
+    overflow: hidden;
+
 }
 
 input {
     outline: none;
     font-size: 18px;
+    color: white;
 }
 
 .div-input {
@@ -125,6 +142,11 @@ input {
 .address-page {
     display: flex;
     justify-content: center;
+    overflow: hidden;
+    display: none;
+    transition: 0.9em ease;
+
+
 }
 
 /********Progress bar********/
