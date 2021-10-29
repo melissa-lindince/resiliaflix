@@ -1,41 +1,36 @@
 body {
-    margin: 0;
-}
-
-.login {
-    background-color: #0D0D0D;
-    width: 400px;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    border-radius: 12px;
-
-}
-
-#nome, #senha {
-    width: 334px;
-    height: 34px;
-    background: none;
-    border: none;
-    border-bottom: 1px solid cornsilk;
-    margin-bottom: 0px;
-}
-
-#nome {
-    margin-top: 20px;
-}
-
-.background {
+    overflow: hidden;
     background-image: url("https://images.unsplash.com/photo-1515041219749-89347f83291a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.general {
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.container  {
+    background-color: #0D0D0D;
+    width: 400px;
+    height: 500px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    width: 80%;
+
+}
+
+.logo-resilia {
+    display: flex;
+    justify-content: center;
 }
 
 .logo-resilia img {
@@ -46,38 +41,53 @@ body {
     margin-top: 58px;
     font-size: 30px;
     width: 45%;
-    
 }
 
-.logo-resilia {
-    display: flex;
-    justify-content: center;
-
+#nome, #senha {
+    width: 100%;
+    height: 34px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f2f2f2;
+    outline: none;
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
 }
 
-
-.logo-flix {
-    background-image: linear-gradient(to right, #07CBBF, #01A9CE);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: flex;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 40px;
-    font-size: 30px;
+#nome, #botao-entrar{
+    margin-top: 20px;
 }
 
-.recupera-senha, .mensagem-cadastro {
+#botao-entrar:hover {
+    background: #ffd000;
+    transition: 0.5s ease;
+    color: #0d0d0d;
+    cursor: pointer;
+  }
+
+.recupera-senha {
     color: #35BBF2;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 20px;
+    margin-top: 20px;
+  
+}
+
+.mensagem-cadastro {
+    color: #35BBF2;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .mensagem-cadastro {
     color: cornsilk;
+
 }
 
+.div-botao-entrar {
+    display: flex;
+    align-items: center;
+    width: 93%;
+}
 
 #botao-entrar {
     margin-bottom: 20px;
@@ -88,42 +98,65 @@ body {
     color: #B4B3B3;
     font-weight: bold;
     font-size: 20px;
+    border: none;
+    transition: 0.2s linear;
 }
-
-.div-botao-entrar {
-    display: flex;
-    align-items: center;
- 
-}
-
 
 .div-cadastro {
     display: flex;
-    border-bottom: 1px solid cornsilk;
-    margin-bottom: 20px
-
+    border-bottom: 1px solid cornsilk; 
+    margin-bottom: 20px;
 }
 
 .mensagem-cadastro {
     margin-right: 30px;
-    margin-bottom: 10px;
 }
 
 #botao-cadastro {
     background: none;
     border: none;
     color:#35BBF2;
-    margin-bottom: 10px;
     font-weight: bold;
 }
 
+.div-techtalents {
+    display: flex;
+    justify-content: center;
+}
+
 #botao-acesso-techtalents {
-    margin-bottom: 20px;
-    width: 360px;
+    width: 250px;
     height: 40px;
+    margin-top: 20px;
     background: none;
     border-style: solid;
     border-color: #FFD000; 
     color:#FFD000;
     border-radius: 12px;
+    cursor: pointer;
 }
+
+
+label {
+    color: #35bcf2cb;
+    font-size: 15px;
+    margin-top: -19px;
+    position: absolute;
+    pointer-events: none;
+    transition: all.3s ease;
+  }
+ 
+  input:focus ~ label,
+  input:valid ~ label {
+    font-size: 12px;
+    transform: translateY(-18px);
+  }
+
+  .bi-eye {
+    position: absolute;
+    color: #ffd000;
+    margin-left: 307px;
+    margin-top: -19px;
+    cursor: pointer;
+  }
+ 
