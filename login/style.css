@@ -54,7 +54,16 @@ body {
   margin-top: 10px;
   font-size: 14px;
 }
+/* 
+.msgErroEmail {
+    color: #ffd000;
+}
 
+.msgErroSenha {
+    color: #ffd000;
+}
+ */
+ 
 #nome,
 #botao-entrar {
   margin-top: 20px;
