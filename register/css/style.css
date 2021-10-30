@@ -218,3 +218,7 @@ input {
 .logo img {
     width: 150px;
 }
+
+.success-page {
+    display: none;
+}

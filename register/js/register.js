@@ -26,11 +26,13 @@ slidePage.style.marginLeft = "-100%"
 
 })
 
+var paymentPage = document.querySelector(".payment-page")
+var successPage = document.querySelector(".success-page")
 var sign = document.querySelector(".sign")
 sign.addEventListener("click", function(){
-slidePage.style.marginLeft = "-300%"
-
+paymentPage.style.display = "none"
+successPage.style.display = "flex"
 })
 
-
+var password = document.querySelector(".password");
 
