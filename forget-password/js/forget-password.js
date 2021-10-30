@@ -13,7 +13,7 @@ btnSubmit.addEventListener("click", function() {
     form.style.display= "none"
     btnSubmit.style.display= "none"
     divSucess.style.display= "flex"
-
+    
  }
 })
 
