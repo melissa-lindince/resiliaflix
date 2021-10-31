@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <script defer src="login.js"></script>
+  </head>
+
+  <body>
+    <div class="general">
+      <div class="container">
+        <form class="login-form">
+          <!--Logo ResiliaFlix-->
+          <div class="logo">
+            <img src="../img/logo.png" alt="logo resilia" />
+          </div>
+          <!--Email input-->
+          <div class="email">
+            <input
+              type="email"
+              class="email-input"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              title="exemplo@exemplo.com"
+              required
+            />
+            <label>E-mail</label>
+          </div>
+          <!--Password input-->
+          <div>
+            <input
+              type="password"
+              class="password-input"
+              pattern="[0-9]{6,}"
+              title="Mínimo de seis números."
+              required
+            />
+            <label>Senha</label>
+            <!--Icon eye-->
+            <div>
+              <i class="bi bi-eye"></i>
+            </div>
+          </div>
+          <!--Recover password-->
+          <div class="recover-password">
+            <a href="/forget-password/forget-password.html">Esqueci minha senha</a>
+          </div>
+          <!--Enter button-->
+          <div class="container-enter-button">
+            <button class="enter-button">
+              <a class="enter" href="../home-filmes/index.html">Entrar</a>
+            </button>
+          </div>
+          <!--Registration link-->
+          <div class="container-registration">
+            <p class="registration-msg">Ainda não possui conta?</p>
+            <a href="../register/register.html" class="registration-link">Cadastre-se</a>
+          </div>
+          <!--Techtalents button-->
+          <div class="container-techtalents">
+            <button class="techtalents-button">
+              ACESSO COM TECHTALENTS
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
