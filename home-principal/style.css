@@ -1,0 +1,142 @@
+body{
+overflow-x: hidden;
+margin: 0;
+padding: 0;
+width: 100vw;
+height: 100vh;
+
+}
+
+.general {
+width: 100vw;
+height: 100vh;
+
+}
+
+
+header {
+background: linear-gradient(180deg, rgba(13, 13, 13, 0.75) 0%, rgba(54, 54, 46, 0.75) 57.29%, rgba(58, 58, 49, 0) 100%);
+display: flex;
+justify-content: center;
+width: 100vw;
+
+
+}
+
+.poster-main{
+    width: 100vw;
+    height: 100vh;  
+    background-color: black;
+}
+.poster {
+    width: 100vw;
+height: 100vh;
+background-color: black;
+}
+.poster img{
+width: 100%;
+height: 100%;
+background-color: black;
+}
+
+.botton1 {
+    background: none;
+    height: 60px;
+    border-radius: 7px;
+    border: none;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s linear;
+    text-decoration: none;
+
+}
+
+.botton2 {
+    background:yellow;
+    height: 60px;
+    border-radius: 7px;
+    border: none;
+    color: rgb(243, 242, 242);;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s linear;
+    text-decoration: none;
+
+}
+
+.logo {
+display: flex;
+float: left;
+width: 30%;
+
+}
+
+.partA {
+justify-content: center;
+display: flex;
+position:absolute;
+margin-top: -30%;
+color: white;
+font-weight: bold;
+}
+
+.botton3{
+    background:yellow;
+    height: 60px;
+    border-radius: 7px;
+    border: none;
+    color: rgb(243, 242, 242);;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s linear;
+    text-decoration: none;
+
+}
+
+.partB {
+background-color: black;
+color: white;
+justify-content: center;
+display: flex;
+}
+
+.background-carousel{
+    background-color: black;
+
+
+}
+.partC {
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    color: white;
+    }
+
+.partD { 
+background-color: black;
+justify-content: center;
+display: flex;
+color: white;
+}
+
+.partE { 
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    color: white;
+    align-items: center;
+    }
+    
+
+.final{
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    color: white;
+    align-items: center; 
+    flex-direction: column;
+}
