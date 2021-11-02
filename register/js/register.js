@@ -10,7 +10,7 @@ var nextTwo = document.querySelector(".next-2")
 
 nextTwo.addEventListener("click", function(){
 
-slidePage.style.marginLeft = "-200%"
+slidePage.style.marginLeft = "-200%";
 })
 
 var previous = document.querySelector(".previous")
