@@ -1,0 +1,697 @@
+body {
+    background-color: #161A1C;
+    height: 100%;
+    width: 100vh;
+    background-size: cover;
+}
+
+div.superior-degrade {
+    position: absolute;
+    width: 1583px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, rgb(13 13 13 / 93%) 0%, rgb(30 30 28 / 76%) 57.29%, rgba(58, 58, 49, 0) 100%);
+}
+
+#icone-logo {
+    position: absolute;
+    width: 93px;
+    height: 34.78px;
+    left: 18px;
+    top: 24px;
+}
+
+#botao-inicio {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 519px;
+    top: 24px;
+
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+}
+
+#botao-filmes {
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    left: 679px;
+    top: 24px;
+
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+}
+
+#botao-favoritos {
+    position: absolute;
+    width: 106px;
+    height: 30px;
+    left: 849px;
+    top: 24px;
+
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+
+}
+
+#icone-botao-pesquisar {
+    position: absolute;
+    left: 92.57%;
+    right: 5.69%;
+    top: 2.83%;
+    bottom: 94.73%;
+}
+
+#icone-conta {
+    position: absolute;
+    left: 97.01%;
+    right: 1.25%;
+    top: 2.64%;
+    bottom: 94.92%;
+}
+
+.titulo-idealizadores {
+    position: absolute;
+    width: 383px;
+    height: 87px;
+    left: 300px;
+    top: 119px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F2F2F2;
+}
+
+#maumau-titulo {
+    position: absolute;
+    width: 150px;
+    height: 12px;
+    left: 198px;
+    top: 222px;
+
+    font-family: open Sans condensed;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F2F2F2;
+}
+
+#foto-maumau {
+    position: absolute;
+    width: 162px;
+    height: 159px;
+    left: 180px;
+    top: 257px;
+}
+
+#triangulo-foto-maumau {
+    position: absolute;
+    width: 198px;
+    height: 140px;
+    left: 165px;
+    top: 238px;
+}
+
+#maumau-github-icone {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 188px;
+    top: 432px;
+}
+
+#maumau-github-escrito {
+    position: absolute;
+    width: 80.73px;
+    height: 22.35px;
+    left: 214px;
+    top: 432px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #f2f2f2;
+}
+
+#maumau-linkedin-icone {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 188px;
+    top: 475px
+}
+
+#maumau-linkedin-escrito {
+    position: absolute;
+    width: 99.38px;
+    height: 22.36px;
+    left: 214px;
+    top: 473px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+}
+
+#anninha-titulo {
+    position: absolute;
+    width: 141px;
+    height: 22px;
+    left: 462px;
+    top: 217px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F2F2F2;
+}
+
+#foto-anninha {
+    position: absolute;
+    width: 160px;
+    height: 159px;
+    left: 439px;
+    top: 257px;
+}
+
+#triangulo-foto-anninha {
+    position: absolute;
+    width: 198px;
+    height: 140px;
+    left: 419.4px;
+    top: 238px;
+}
+
+#anninha-github-icone {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 460.68px;
+    top: 433.61px;
+}
+
+#anninha-github-escrito {
+    position: absolute;
+    width: 80.73px;
+    height: 22.35px;
+    left: 496.69px;
+    top: 436.1px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+#anninha-linkedin-icone {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 454px;
+    top: 471px;
+}
+
+#anninha-linkedin-escrito {
+    position: absolute;
+    width: 99.38px;
+    height: 22.36px;
+    left: 484px;
+    top: 475px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+}
+
+#augustin-titulo {
+    position: absolute;
+    width: 144px;
+    height: 22px;
+    left: 708px;
+    top: 222px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F2F2F2;
+}
+
+#foto-augustin {
+    position: absolute;
+    width: 162px;
+    height: 159px;
+    left: 696px;
+    top: 257px;
+
+    background: url(.jpg);
+    border: 1px solid rgba(140, 140, 140, 0.5);
+}
+
+#augustin-github-icone {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 709.06px;
+    top: 434.85px;
+}
+
+#augustin-github-escrito {
+    position: absolute;
+    width: 144px;
+    height: 22px;
+    left: 708px;
+    top: 220px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+}
+
+#augustin-linkedin-icone {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 708px;
+    top: 475px;
+}
+
+#augustin-linkedin-escrito {
+    position: absolute;
+    width: 99.38px;
+    height: 22.36px;
+    left: 738px;
+    top: 479px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+}
+
+#mel-titulo {
+    position: absolute;
+    width: 124.23px;
+    height: 22.36px;
+    left: 198.27px;
+    top: 516.75px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F2F2F2;
+}
+
+#foto-mel {
+    position: absolute;
+    width: 161.5px;
+    height: 161.5px;
+    left: 179.63px;
+    top: 547.81px;
+
+    background: url(.jpg);
+    border: 1px solid rgba(140, 140, 140, 0.5);
+    box-sizing: border-box;
+}
+
+#mel-github-icone {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 198.27px;
+    top: 729.19px;
+}
+
+#mel-github-escrito {
+    position: absolute;
+    width: 80.75px;
+    height: 22.36px;
+    left: 234.3px;
+    top: 732.91px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #f2f2f2;
+}
+
+#mel-linkedin-icone {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 198px;
+    top: 790px;
+}
+
+#mel-linkedin-escrito {
+    position: absolute;
+    width: 99.38px;
+    height: 22.36px;
+    left: 228px;
+    top: 794px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+}
+
+#teteu-titulo {
+    position: absolute;
+    width: 142.86px;
+    height: 22.36px;
+    left: 446.73px;
+    top: 516.75px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F2F2F2;
+}
+
+#foto-teteu {
+    position: absolute;
+    width: 161.5px;
+    height: 161.5px;
+    left: 438.03px;
+    top: 547.81px;
+
+    background: url(.jpg);
+    border: 1px solid rgba(140, 140, 140, 0.5);
+}
+
+#triangulo-foto-teteu {
+    position: absolute;
+    width: 198.77px;
+    height: 198.77px;
+    left: 419.4px;
+    top: 677.01px;
+
+    border: 1px solid rgba(140, 140, 140, 0.5);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+#teteu-github-icone {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 454.18px;
+    top: 729.19px;
+}
+
+#teteu-github-escrito {
+    position: absolute;
+    width: 93.17px;
+    height: 22.36px;
+    left: 490.21px;
+    top: 731.67px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #f2f2f2 ;
+}
+
+#teteu-linkedin-icone {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 454px;
+    top: 794px;
+}
+
+#teteu-linkedin-escrito {
+    position: absolute;
+    width: 99.38px;
+    height: 22.36px;
+    left: 484px;
+    top: 798px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+}
+
+#isa-titulo {
+    position: absolute;
+    width: 111.81px;
+    height: 22.36px;
+    left: 721.27px;
+    top: 516.75px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F2F2F2;
+}
+
+#foto-isa {
+    position: absolute;
+    width: 161.5px;
+    height: 161.5px;
+    left: 696.43px;
+    top: 547.81px;
+
+    background: url(.jpg);
+    border: 1px solid rgba(140, 140, 140, 0.5);
+}
+
+#triangulo-foto-isa {
+    position: absolute;
+    width: 198.77px;
+    height: 198.77px;
+    left: 677.79px;
+    top: 678.25px;
+
+    border: 1px solid rgba(140, 140, 140, 0.5);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+#isa-github-icone {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 708.85px;
+    top: 729.19px;
+}
+
+#isa-github-escrito {
+    position: absolute;
+    width: 99.38px;
+    height: 22.36px;
+    left: 739px;
+    top: 732px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+}
+
+#isa-linkedin-icone {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 709px;
+    top: 788px;
+}
+
+#isa-linkedin-escrito {
+    position: absolute;
+    width: 99.38px;
+    height: 22.36px;
+    left: 739px;
+    top: 792px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+}
+
+#logo-resiliaflix {
+    position: absolute;
+    width: 390.43px;
+    height: 146px;
+    left: 1019px;
+    top: 432px;
+}
+
+#fundo-logo-resiliaflix {
+    position: absolute;
+    left: 3.07%;
+    right: 1.39%;
+    top: 0.68%;
+    bottom: 1.37%;
+}
+
+.nomes {
+    position: absolute;
+    width: 549px;
+    height: 58px;
+    left: 476px;
+    top: 932px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
