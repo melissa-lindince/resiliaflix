@@ -9,6 +9,7 @@ btnSubmit.addEventListener("click", function() {
        setInterval(() => {
         msgErr.innerHTML = " "
        }, 2000);
+
  } else if (inputEmail.value){
     form.style.display= "none"
     btnSubmit.style.display= "none"
@@ -16,5 +17,8 @@ btnSubmit.addEventListener("click", function() {
     
  }
 })
+     
+   }
 
+})
 

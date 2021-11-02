@@ -48,27 +48,27 @@
                 <!--Input name-->
                 <div class="div-input-name">
                   <input type="text" class="name" required />
-                  
+                  <label class="label-contact">Nome</label>
                 </div>
                 <!--Input fullname-->
                 <div class="div-input-fullname">
                   <input type="text" class="fullname" required />
-                  
+                  <label class="label-contact">Sobrenome</label>
                 </div>
               </div>
               <!--Input email-->
               <div class="div-input">
                 <input type="email" class="email" required />
-                <label>email</label>
+                <label class="label-contact">email</label>
               </div>
               <!--Input password-->
               <div class="div-input">
                 <input type="password" class="password" required />
-                <label>Senha secreta</label>
+                <label class="label-contact" >Senha secreta</label>
               </div>
               <div class="div-input">
                 <input type="password" class="password" required />
-                <label>Novamente a senha secreta</label>
+                <label class="label-contact" >Novamente a senha secreta</label>
               </div>
               <!--Button-->
               <div class="buttons-sign-up next-btn">
@@ -115,13 +115,13 @@
                 <!--Input number house-->
                 <div class="div-input">
                   <input type="text" class="number-house" required />
-                  <label>Nº</label>
+                  <label class="label-address">Nº</label>
                 </div>
               </div>
               <!--Input complement-->
               <div class="div-input">
                 <input type="text" class="complement" required />
-                <label>Complemento</label>
+                <label class="label-address">Complemento</label>
               </div>
               <!--Buttons-->
               <div class="buttons-sign-up">
@@ -130,7 +130,7 @@
               </div>
             </div>
             <!-------------Payment page---------------->
-            <div class="page-sign-up">
+            <div class="page-sign-up payment-page">
               <!--Text-->
               <header class="header-title">
                 <h2 class="title-sign-up">
@@ -139,30 +139,30 @@
               </header>
               <!--Input card number-->
               <div class="div-input">
-                <input type="text" class="card-number" />
+                <input type="text" class="card-number" required />
                 <label>Número do cartão</label>
               </div>
               <!--Input fullname-->
               <div class="div-card">
                 <!--Input card expiration-->
                 <div class="div-input">
-                  <input type="text" class="card-expiration" />
+                  <input type="text" class="card-expiration" required />
                   <label>Vencimento</label>
                 </div>
                 <!--Input card security code-->
                 <div class="div-input">
-                  <input type="text" class="security-code" />
+                  <input type="text" class="security-code" required />
                   <label>Código de segurança</label>
                 </div>
               </div>
               <!--Input card name-->
               <div class="div-input">
-                <input type="text" class="card-name" />
+                <input type="text" class="card-name" required />
                 <label>Nome no cartão</label>
               </div>
               <!--Input CPF-->
               <div class="div-input">
-                <input type="text" class="cpf" />
+                <input type="text" class="cpf" required />
                 <label>CPF</label>
               </div>
               <!--Buttons-->
@@ -172,19 +172,18 @@
               </div>
             </div>
             <!---------------Success Page------------------>
-            <div>
+            <div class="success-page">
               <div class="div-success">
                 <h2>Cadastro feito com sucesso</h2>
                 <button class="btn-login">
-                <a href="/login/index.html">Fazer Login</a>
+                <a href="../login/index.html">Fazer Login</a>
                 </button>
-
               </div>
-
             </div>
           </form>
+          <!--Logo-->
           <div class="logo">
-            <img src="img/logo-resiliaflix.png" alt="" />
+            <img src="img/logo-resiliaflix.png" alt="Logo ResiliaFlix" />
           </div>
         </div>
       </div>
