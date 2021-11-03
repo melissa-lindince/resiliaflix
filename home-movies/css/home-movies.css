@@ -4,10 +4,7 @@ html, body {
     width: 100%;
     height: 100%;
     background-color: #131212;
-}
-
-.general {
-    background-color: rgb(22, 21, 21);
+    font-family: 'Roboto', sans-serif;
 }
 
 .user {
@@ -39,7 +36,6 @@ html, body {
     text-decoration: none;
     color: #FFFFFF;
     margin-right: 50px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .item-img {
