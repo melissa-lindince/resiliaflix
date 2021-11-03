@@ -12,6 +12,7 @@ $(document).ready(function() {
         dots: false,
         margin: 3,
         smartSpeed : 900,
+        nav: true,
         responsive: {
             0: {
                 items: 1

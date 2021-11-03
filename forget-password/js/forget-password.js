@@ -10,15 +10,5 @@ btnSubmit.addEventListener("click", function() {
         msgErr.innerHTML = " "
        }, 2000);
 
- } else if (inputEmail.value){
-    form.style.display= "none"
-    btnSubmit.style.display= "none"
-    divSucess.style.display= "flex"
-    
- }
-})
-     
-   }
-
 })
 
