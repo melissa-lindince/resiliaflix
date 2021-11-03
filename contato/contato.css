@@ -1,0 +1,698 @@
+body {
+    background-color: #161A1C;
+    height: 100%;
+    width: 100vh;
+    background-size: cover;
+    overflow: hidden;
+}
+
+div.upper-gradient {
+    position: absolute;
+    width: 1583px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, rgb(13 13 13 / 93%) 0%, rgb(30 30 28 / 76%) 57.29%, rgba(58, 58, 49, 0) 100%);
+}
+
+#icone-logo {
+    position: absolute;
+    width: 93px;
+    height: 34.78px;
+    left: 18px;
+    top: 24px;
+}
+
+#button-inicio {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 519px;
+    top: 24px;
+
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+}
+
+#button-filmes {
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    left: 679px;
+    top: 24px;
+
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+}
+
+#button-favoritos {
+    position: absolute;
+    width: 106px;
+    height: 30px;
+    left: 849px;
+    top: 24px;
+
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+
+}
+
+#button-search-icon {
+    position: absolute;
+    left: 92.57%;
+    right: 5.69%;
+    top: 2.83%;
+    bottom: 94.73%;
+}
+
+#person-circle-icon {
+    position: absolute;
+    left: 97.01%;
+    right: 1.25%;
+    top: 2.64%;
+    bottom: 94.92%;
+}
+
+.upper-title {
+    position: absolute;
+    width: 383px;
+    height: 87px;
+    left: 344px;
+    top: 74px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F2F2F2;
+}
+
+#maumau-triangle-picture {
+    position: absolute;
+    width: 198px;
+    height: 140px;
+    left: 165px;
+    top: 188px;
+}
+
+#maumau-title {
+    position: absolute;
+    width: 150px;
+    height: 12px;
+    left: 198px;
+    top: 172px;
+
+    font-family: open Sans condensed;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F2F2F2;
+}
+
+#maumau-picture {
+    position: absolute;
+    width: 162px;
+    height: 159px;
+    left: 180px;
+    top: 206px;
+}
+
+#maumau-github-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 188px;
+    top: 371px;
+}
+
+#maumau-github-written {
+    position: absolute;
+    width: 80.73px;
+    height: 22.35px;
+    left: 214px;
+    top: 370px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #f2f2f2;
+}
+
+#maumau-linkedin-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 188px;
+    top: 401px
+}
+
+#maumau-linkedin-written {
+    position: absolute;
+    width: 99.38px;
+    height: 22.36px;
+    left: 214px;
+    top: 399px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+}
+
+#anninha-triangle-photo {
+    position: absolute;
+    width: 198px;
+    height: 140px;
+    left: 419.4px;
+    top: 188px;
+}
+
+#anninha-title {
+    position: absolute;
+    width: 141px;
+    height: 12px;
+    left: 462px;
+    top: 172px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F2F2F2;
+}
+
+#anninha-picture {
+    position: absolute;
+    width: 160px;
+    height: 159px;
+    left: 439px;
+    top: 206px;
+}
+
+#anninha-github-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 474px;
+    top: 371px;
+}
+
+#anninha-github-written {
+    position: absolute;
+    width: 80.73px;
+    height: 22.35px;
+    left: 501px;
+    top: 370px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+#anninha-linkedin-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 474px;
+    top: 401px;
+}
+
+#anninha-linkedin-written {
+    position: absolute;
+    width: 99.38px;
+    height: 22.36px;
+    left: 501px;
+    top: 399px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+}
+
+#augustin-triangle-photo {
+    position: absolute;
+    width: 198px;
+    height: 140px;
+    left: 677.79px;
+    top: 188px;
+}
+
+#augustin-title {
+    position: absolute;
+    width: 144px;
+    height: 12px;
+    left: 731px;
+    top: 172px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F2F2F2;
+}
+
+#augustin-picture {
+    position: absolute;
+    width: 162px;
+    height: 159px;
+    left: 696px;
+    top: 206px;
+}
+
+#augustin-github-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 727px;
+    top: 371px;
+}
+
+#augustin-github-written {
+    position: absolute;
+    width: 99px;
+    height: 22px;
+    left: 753px;
+    top: 370px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+}
+
+#augustin-linkedin-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 727px;
+    top: 401px;
+}
+
+#augustin-linkedin-written {
+    position: absolute;
+    width: 99px;
+    height: 22px;
+    left: 753px;
+    top: 399px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+}
+
+#mel-triangle-photo {
+    position: absolute;
+    width: 198px;
+    height: 140px;
+    left: 165px;
+    top: 491px;
+}
+
+#mel-title {
+    position: absolute;
+    width: 124px;
+    height: 22px;
+    left: 204px;
+    top: 469px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F2F2F2;
+}
+
+#mel-picture {
+    position: absolute;
+    width: 161.5px;
+    height: 161.5px;
+    left: 180px;
+    top: 510px;
+}
+
+#mel-github-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 209px;
+    top: 680px;
+}
+
+#mel-github-written {
+    position: absolute;
+    width: 80px;
+    height: 22px;
+    left: 234px;
+    top: 679px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #f2f2f2;
+}
+
+#mel-linkedin-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 208px;
+    top: 710px;
+}
+
+#mel-linkedin-written {
+    position: absolute;
+    width: 99px;
+    height: 22px;
+    left: 234px;
+    top: 709px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+}
+
+#teteu-triangle-photo {
+    position: absolute;
+    width: 198px;
+    height: 140px;
+    left: 419.4px;
+    top: 491px;
+}
+
+#teteu-title {
+    position: absolute;
+    width: 142.86px;
+    height: 22.36px;
+    left: 446.73px;
+    top: 469px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F2F2F2;
+}
+
+#teteu-picture {
+    position: absolute;
+    width: 161.5px;
+    height: 161.5px;
+    left: 438.03px;
+    top: 510px;
+}
+
+#teteu-github-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 460px;
+    top: 680px;
+}
+
+#teteu-github-written {
+    position: absolute;
+    width: 93px;
+    height: 22px;
+    left: 486px;
+    top: 679px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #f2f2f2 ;
+}
+
+#teteu-linkedin-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 460px;
+    top: 710px;
+}
+
+#teteu-linkedin-written {
+    position: absolute;
+    width: 99px;
+    height: 22px;
+    left: 486px;
+    top: 709px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+}
+
+#isa-triangle-photo {
+    position: absolute;
+    width: 198px;
+    height: 140px;
+    left: 677.79px;
+    top: 491px;
+}
+
+#isa-title {
+    position: absolute;
+    width: 111px;
+    height: 22px;
+    left: 721.27px;
+    top: 469px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F2F2F2;
+}
+
+#isa-picture {
+    position: absolute;
+    width: 161.5px;
+    height: 161.5px;
+    left: 696.43px;
+    top: 510px;
+}
+
+#isa-github-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 722px;
+    top: 680px;
+}
+
+#isa-github-written {
+    position: absolute;
+    width: 99px;
+    height: 22px;
+    left: 748px;
+    top: 679px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+}
+
+#isa-linkedin-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 722px;
+    top: 710px;
+}
+
+#isa-linkedin-written {
+    position: absolute;
+    width: 99px;
+    height: 22px;
+    left: 748px;
+    top: 709px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #F2F2F2;
+}
+
+#logo-resiliaflix {
+    position: absolute;
+    width: 390px;
+    height: 146px;
+    left: 1050px;
+    top: 339px;
+}
+
+#background-logo-resiliaflix {
+    position: absolute;
+    width: 390px;
+    height: 146px;
+    left: 1050px;
+    top: 339px;
+    right: 1.39%;
+    bottom: 1.37%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(13, 13, 13, 0.8) 0%, rgba(54, 54, 46, 0.8) 0.01%, rgba(58, 58, 49, 0) 100%);
+}
+
+.owners-name {
+    position: absolute;
+    width: 1000px;
+    height: 58px;
+    left: 476px;
+    top: 755px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
