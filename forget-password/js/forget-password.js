@@ -7,8 +7,5 @@ btnSubmit.addEventListener("click", function() {
        setInterval(() => {
         msgErr.innerHTML = " "
        }, 2000);
-     
    }
-
-
 })
