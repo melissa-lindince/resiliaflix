@@ -97,6 +97,7 @@ header{
     background-color: #FFD000;
     border-radius: 20px;
     border: none;
+    word-wrap: break-word;
 }
 
 .background-carrossel{
@@ -113,12 +114,10 @@ header{
 }
 
 .item > img{
-    width: 100%;
-    height: 150px;
+    max-width: 100%;
+    height: auto;
     border-radius: 5px;
     border: 1px solid #35BBF2;
-    /* width: 285px;
-    height: 160px; */
 }
 
 .text > h2{
@@ -133,6 +132,7 @@ header{
     font-size: 36;
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 .gradient{
