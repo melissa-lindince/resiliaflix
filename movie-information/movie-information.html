@@ -1,97 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css" />
     <!--Bootstrap-->
-    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
     <div class="general">
-        <header>
-            <!-- Top bar -->
-            <nav class="top-bar">
-                <div class="logo">
-                    <img src="../../img/logo.png" alt="logo" />
-                </div>
-                <div class="links">
-                    <a href="url">INÍCIO</a>
-                    <a href="url">FILMES</a>
-                    <a href="url">FAVORITOS</a>
-                </div>
-                <div class="user">
-                    <i class="bi bi-person-circle"></i>
-                </div>
-            </nav>
-        </header>
+      <header>
+        <!-- Top bar -->
+        <nav class="top-bar">
+          <div class="logo">
+            <img src="../../img/logo.png" alt="logo" />
+          </div>
+          <div class="links">
+            <a href="url">INÍCIO</a>
+            <a href="url">FILMES</a>
+            <a href="url">FAVORITOS</a>
+          </div>
+          <div class="user">
+            <i class="bi bi-person-circle"></i>
+          </div>
+        </nav>
+      </header>
+      <!--Poster movie-->
+      <div class="poster">
         <div class="container">
-            <!--Poster movie-->
-            <div class="poster">
-                <img src="img/frozen2.jpeg" alt="">
+          <div class="buttons">
+            <!--Button play-->
+            <button>
+              <i class="bi bi-play-fill"></i>
+              <h4>ASSISTIR</h4>
+            </button>
+            <!--Favorite icon-->
+            <div>
+              <i class="bi bi-bookmark-heart"></i>
             </div>
-            <div class="buttons">
-                <!--Button play-->
-                <button>
-                    <i class="bi bi-play-fill"></i>
-                    <h4>ASSISTIR</h4>
-                </button>
-                <!--Favorite icon-->
-                <div>
-                    <i class="bi bi-bookmark-heart"></i>
-                </div>
-                <!--TV-->
-                <div>
-                    <i class="bi bi-tv"></i>
-                </div>
+            <!--TV-->
+            <div>
+              <i class="bi bi-tv"></i>
             </div>
+          </div>
+          <div class="info">
             <div class="info-movie">
-                <p>Junto de Anna, Olaf, Kristoff e Sven, 
-                    Elsa parte para combater forças desconhecidas 
-                    enquanto descobrem um segredo sobre seus antepassados,
-                    e sobre a origem de seus poderes mágicos.
-                </p>
-                <div class="info"> 
-                    <!--Cast movie-->
-                    <div class="cast">
-                        <h3>Elenco:</h3> 
-                        <p> 
-                        Idina Menzel, Kristen Bell, Jonathan Groff, Josh Gad, mais
-                        </p>
-                    </div>
-                    <!--Direction movie-->
-                    <div class="direction">
-                        <h3>Direção:</h3> 
-                        <p> 
-                        Chris Buck, Jennifer Lee
-                        </p>
-                    </div>
-                    <!--Genre movie-->
-                    <div class="genre">
-                        <h3>Gênero:</h3> 
-                        <p> 
-                        Animação
-                        </p>
-                    </div>
+              <p>
+                Junto de Anna, Olaf, Kristoff e Sven, Elsa parte para combater
+                forças desconhecidas enquanto descobrem um segredo sobre seus
+                antepassados, e sobre a origem de seus poderes mágicos.
+              </p>
+              <div class="info">
+                <!--Cast movie-->
+                <div class="cast">
+                  <h3>Elenco:</h3>
+                  <p>
+                    Idina Menzel, Kristen Bell, Jonathan Groff, Josh Gad, mais
+                  </p>
                 </div>
+                <!--Direction movie-->
+                <div class="direction">
+                  <h3>Direção:</h3>
+                  <p>Chris Buck, Jennifer Lee</p>
+                </div>
+                <!--Genre movie-->
+                <div class="genre">
+                  <h3>Gênero:</h3>
+                  <p>Animação</p>
+                </div>
+              </div>
             </div>
             <!--movie length-->
-            <div>
-                <div>
-                    <h4>2019</h4>
-                    <p>Icon free</p>
-                    <h4>1 h 43 min</h4>
-                </div>
-                <div>
-                    <i class="bi bi-star"></i>
-                    <i class="bi bi-star"></i>
-                    <i class="bi bi-star"></i>
-                    <i class="bi bi-star"></i>
-                    <i class="bi bi-star"></i>
-                </div>
+            <div class="movie-length">
+              <div>
+                <h4>2019</h4>
+                <p>Icon free</p>
+                <h4>1 h 43 min</h4>
+              </div>
+              <div>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
