@@ -110,6 +110,8 @@ header {
     width: 96%;
     height: 50%;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -192,6 +194,7 @@ header {
     margin-bottom: -48px;
     display: initial;
     padding-top: 60px;
+
     align-items: center;
     text-align: center;
 }
