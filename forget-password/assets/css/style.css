@@ -1,0 +1,145 @@
+:root {
+  --text-color: #35bcf2cb;
+  --color-yellow: #ffd000;
+  --border-color: #b4b3b3;
+}
+
+body {
+  background-color: var(--text-color);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.general {
+  background: url("../img/minius.jpg") no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: #0d0d0d;
+  width: 450px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+/********* Logo ***********/
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  width: 45%;
+  margin-top: 58px;
+}
+
+/********* Form ***********/
+.form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 58px;
+}
+
+.container-email {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.container-email input {
+  background: none;
+  color: #f5f1f1;
+  font-size: 20px;
+  width: 98%;
+  height: 35px;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+}
+
+/********* Label *********/
+label {
+  color: #35bbf2;
+  font-size: 15px;
+  margin-top: 30px;
+  position: absolute;
+  pointer-events: none;
+  transition: all.3s ease;
+}
+
+.container-email input:focus ~ label,
+.container-email input:valid ~ label {
+  font-size: 12px;
+  transform: translateY(-22px);
+}
+
+/********* Button *********/
+.btn, .btn-login {
+  background-color: #8c8c8c;
+  color: #0d0d0d;
+  font-weight: bold;
+  font-size: 20px;
+  width: 72%;
+  height: 40px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  transition: 0.2s linear;
+  cursor: pointer;
+  margin-top: 58px;
+}
+
+.btn:hover, .btn-login:hover {
+  background: var(--color-yellow);
+  transition: 0.5s ease;
+}
+
+.btn-login a {
+  text-decoration: none;
+  color: #0d0d0d;
+}
+
+/********* Icon eye *********/
+.bi-eye {
+  position: absolute;
+  color: var(--color-yellow);
+  margin-left: 298px;
+  margin-top: -18px;
+  cursor: pointer;
+}
+
+/********* Err msg *********/
+.msg-err {
+  color: red;
+  justify-content: center;
+}
+
+/********* Sucess *********/
+.div-sucess {
+  display: none;
+  color: white;
+  margin-top: 58px;
+}
+
+.sucess {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

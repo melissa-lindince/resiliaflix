@@ -1,38 +1,39 @@
-var btnNext = document.querySelector(".next-1")
-var slidePage = document.querySelector(".form")
+/************ Pages **************/
+const contactPage = document.querySelector(".contact-page")
+const addressPage = document.querySelector(".address-page")
+const paymentPage = document.querySelector(".payment-page")
+const successPage = document.querySelector(".success-page")
+/********** Back button**************/
+const previousOne = document.querySelector(".previous")
+const previousTwo = document.querySelector(".previous-2")
+/********** Next buttons *****************/
+const btnNextOne = document.querySelector(".next-1")
+const btnNextTwo = document.querySelector(".next-2")
+/********** Sign button ******************/
+const sign = document.querySelector(".sign")
 
-btnNext.addEventListener("click", function(){
-
-slidePage.style.marginLeft = "-100%"
+/***********Event buttons ***************/
+btnNextOne.addEventListener("click", function(){
+    addressPage.style.display = "flex";
+    contactPage.style.display = "none";
 })
 
-var nextTwo = document.querySelector(".next-2")
-
-nextTwo.addEventListener("click", function(){
-
-slidePage.style.marginLeft = "-200%";
+btnNextTwo.addEventListener("click", function(){
+    paymentPage.style.display = "flex";
+    addressPage.style.display = "none";
 })
 
-var previous = document.querySelector(".previous")
-previous.addEventListener("click", function(){
-
-slidePage.style.marginLeft = "1%"
-})
-
-var previousTwo = document.querySelector(".previous-2")
-previousTwo.addEventListener("click", function(){
-
-slidePage.style.marginLeft = "-100%"
-
-})
-
-var paymentPage = document.querySelector(".payment-page")
-var successPage = document.querySelector(".success-page")
-var sign = document.querySelector(".sign")
 sign.addEventListener("click", function(){
-paymentPage.style.display = "none"
-successPage.style.display = "flex"
+    successPage.style.display = "flex";
+    paymentPage.style.display = "none";
 })
 
-var password = document.querySelector(".password");
+previousOne.addEventListener("click", function(){
+    contactPage.style.display = "flex";
+    addressPage.style.display = "none";
+})
 
+previousTwo.addEventListener("click", function(){
+    addressPage.style.display = "flex";
+    paymentPage.style.display = "none";
+})

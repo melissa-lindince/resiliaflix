@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: flex;
 }
 
 a {
@@ -90,8 +91,7 @@ header {
 .bi-search {
     width: 20px;
     color: #F2F2F2;
-}
-
+  
 .bi-search:hover {
     font-size: 22px;
 }
@@ -130,6 +130,7 @@ header {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 25px;
+
     padding-right: 43vw;
     margin-bottom: 3vw;
     display: flex;
@@ -170,7 +171,7 @@ header {
 
 #name {
     font-size: 14px;
-    font-family: open Sans condensed;
+    font-family: sans-serif;
     margin-top: -1vh;
     text-align: center;
 }

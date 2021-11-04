@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ResiliaFlix</title>
-    <!--JS-->
-    <script defer src="js/register.js"></script>
-    <!--CSS-->
-    <link rel="stylesheet" href="css/style.css" />
-    <!--Bootstrap-->
-    <link
-      rel="stylesheet"
-      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
-    />
-  </head>
 
-  <body>
-    <div class="general">
-      <!--Entry form-->
-      <div class="container">
-        <div class="form-outer">
-          <form action="#" class="form">
-            <!--Progress bar-->
-            
-           <!--  <div class="progress-bar">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ResiliaFlix</title>
+  <!--JS-->
+  <script defer src="js/register.js"></script>
+  <script defer src="js/api.js"></script>
+  <!--CSS-->
+  <link rel="stylesheet" href="css/style.css" />
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+</head>
+
+<body>
+  <div class="general">
+    <!--Entry form-->
+    <div class="container">
+        <form action="#" class="form">
+          <!--Progress bar-->
+          <!--  <div class="progress-bar">
               <div class="step1">
                 <i class="bi bi-square-fill"></i>
               </div>
@@ -35,158 +32,148 @@
                 <i class="bi bi-square-fill"></i>
               </div>
             </div> -->
-            <!-------------Contact page---------- -->
-            <div class="page-sign-up slide-page contact-page">
-              <!--Text-->
-              <header class="header-title">
-                <h2 class="title-sign-up">
-                  Crie sua conta e tenha a melhor experiência!
-                </h2>
-              </header>
-              <!--Inputs name and full name-->
-              <div class="div-input-name-fullname">
-                <!--Input name-->
-                <div class="div-input-name">
-                  <input type="text" class="name" required />
-                  <label class="label-contact">Nome</label>
-                </div>
-                <!--Input fullname-->
-                <div class="div-input-fullname">
-                  <input type="text" class="fullname" required />
-                  <label class="label-contact">Sobrenome</label>
-                </div>
-              </div>
-              <!--Input email-->
-              <div class="div-input">
-                <input type="email" class="email" required />
-                <label class="label-contact">email</label>
-              </div>
-              <!--Input password-->
-              <div class="div-input">
-                <input type="password" class="password" required />
-                <label class="label-contact" >Senha secreta</label>
-              </div>
-              <div class="div-input">
-                <input type="password" class="password" required />
-                <label class="label-contact" >Novamente a senha secreta</label>
-              </div>
-              <!--Button-->
-              <div class="buttons-sign-up next-btn">
-                <button class="next-1 next-btn">Avançar</button>
-              </div>
+          <!-------------Contact page---------- -->
+          <div class="page-sign-up contact-page">
+            <!--Text-->
+            <header class="header-title">
+              <h2 class="title-sign-up">
+                Crie sua conta e tenha a melhor experiência!
+              </h2>
+            </header>
+              <!--Input name-->
+            <div class="div-input">
+              <input type="text" class="name" required />
+              <label class="label-contact">Nome</label>
             </div>
-            <!--------------Address page---------------->
-            <div class="page-sign-up address-page">
-              <!--Text-->
-              <header classe="header-title">
-                <h2 class="title-sign-up2">
-                  Só mais dois passos para finalizar o cadastro! ;)
-                </h2>
-              </header>
-              <!--Input CEP-->
-              <div class="div-input">
-                <input type="text" class="cep" required />
-                <label>CEP</label>
-              </div>
-              <div class="div-state-city">
-                <!--Input state-->
-                <div class="div-input">
-                  <input type="text" class="state" required />
-                  <label>Estado</label>
-                </div>
-                <!--Input city-->
-                <div class="div-input">
-                  <input type="text" class="city" required />
-                  <label>Cidade</label>
-                </div>
-              </div>
-              <!--Input district-->
-              <div class="div-input">
-                <input type="text" class="district" required />
-                <label>Bairro</label>
-              </div>
-              <div class="div-road-number">
-                <!--Inputs road and number house-->
-                <div class="div-input">
-                  <!--Input road-->
-                  <input type="text" class="road" required />
-                  <label>Rua</label>
-                </div>
-                <!--Input number house-->
-                <div class="div-input">
-                  <input type="text" class="number-house" required />
-                  <label class="label-address">Nº</label>
-                </div>
-              </div>
-              <!--Input complement-->
-              <div class="div-input">
-                <input type="text" class="complement" required />
-                <label class="label-address">Complemento</label>
-              </div>
-              <!--Buttons-->
-              <div class="buttons-sign-up">
-                <button class="previous-1 previous">Voltar</button>
-                <button class="next-2 next-btn">Avançar</button>
-              </div>
+            <!--Input fullname-->
+            <div class="div-input">
+              <input type="text" class="fullname" required />
+              <label class="label-contact">Sobrenome</label>
             </div>
-            <!-------------Payment page---------------->
-            <div class="page-sign-up payment-page">
-              <!--Text-->
-              <header class="header-title">
-                <h2 class="title-sign-up">
-                  Ultimo passo para ter o melhor Streaming de toda a Via Láctea!
-                </h2>
-              </header>
-              <!--Input card number-->
-              <div class="div-input">
-                <input type="text" class="card-number" required />
-                <label>Número do cartão</label>
-              </div>
-              <!--Input fullname-->
-              <div class="div-card">
-                <!--Input card expiration-->
-                <div class="div-input">
-                  <input type="text" class="card-expiration" required />
-                  <label>Vencimento</label>
-                </div>
-                <!--Input card security code-->
-                <div class="div-input">
-                  <input type="text" class="security-code" required />
-                  <label>Código de segurança</label>
-                </div>
-              </div>
-              <!--Input card name-->
-              <div class="div-input">
-                <input type="text" class="card-name" required />
-                <label>Nome no cartão</label>
-              </div>
-              <!--Input CPF-->
-              <div class="div-input">
-                <input type="text" class="cpf" required />
-                <label>CPF</label>
-              </div>
-              <!--Buttons-->
-              <div class="buttons-sign-up">
-                <button class="previous-2">Voltar</button>
-                <button class="sign">Assinar</button>
-              </div>
+            <!--Input email-->
+            <div class="div-input">
+              <input type="email" class="email" required />
+              <label class="label-contact">email</label>
             </div>
-            <!---------------Success Page------------------>
-            <div class="success-page">
-              <div class="div-success">
-                <h2>Cadastro feito com sucesso</h2>
-                <button class="btn-login">
-                <a href="../login/index.html">Fazer Login</a>
-                </button>
-              </div>
+            <!--Input password-->
+            <div class="div-input">
+              <input type="password" class="password" required />
+              <label class="label-contact">Senha secreta</label>
             </div>
-          </form>
-          <!--Logo-->
-          <div class="logo">
-            <img src="img/logo-resiliaflix.png" alt="Logo ResiliaFlix" />
+            <div class="div-input">
+              <input type="password" class="password" required />
+              <label class="label-contact">Novamente a senha secreta</label>
+            </div>
+            <!--Button-->
+            <div class="buttons-sign-up next-btn">
+              <button class="next-1 next-btn">Avançar</button>
+            </div>
           </div>
+          <!--------------Address page---------------->
+          <div class="page-sign-up address-page">
+            <!--Text-->
+            <header classe="header-title">
+              <h2 class="title-sign-up">
+                Só mais dois passos para finalizar o cadastro! ;)
+              </h2>
+            </header>
+            <!--Input CEP-->
+            <div class="div-input">
+              <input type="text" class="cep" id="cep" required />
+              <label>CEP</label>
+            </div>
+            <!--Input state-->
+            <div class="div-input">
+              <input type="text" class="state" id="state" required />
+              <label>Estado</label>
+            </div>
+            <!--Input city-->
+            <div class="div-input">
+              <input type="text" class="city" id="city" required />
+              <label>Cidade</label>
+            </div>
+            <!--Input district-->
+            <div class="div-input">
+              <input type="text" class="district" id="district" required />
+              <label>Bairro</label>
+            </div>
+            <!--Inputs road-->
+            <div class="div-input">
+              <input type="text" class="road" id="road" required />
+              <label>Rua</label>
+            </div>
+            <!--Input number house-->
+            <div class="div-input">
+              <input type="text" class="number-house" required />
+              <label class="label-address">Nº</label>
+            </div>
+            <!--Input complement-->
+            <div class="div-input">
+              <input type="text" class="complement" required />
+              <label class="label-address">Complemento</label>
+            </div>
+            <!--Buttons-->
+            <div class="buttons-sign-up">
+              <button class="previous-1 previous">Voltar</button>
+              <button class="next-2 next-btn">Avançar</button>
+            </div>
+          </div>
+          <!-------------Payment page---------------->
+          <div class="page-sign-up payment-page">
+            <!--Text-->
+            <header class="header-title">
+              <h2 class="title-sign-up">
+                Ultimo passo para ter o melhor Streaming de toda a Via Láctea!
+              </h2>
+            </header>
+            <!--Input card number-->
+            <div class="div-input">
+              <input type="text" class="card-number" required />
+              <label>Número do cartão</label>
+            </div>
+            <!--Input card expiration-->
+            <div class="div-input">
+              <input type="text" class="card-expiration" required />
+              <label>Vencimento</label>
+            </div>
+            <!--Input card security code-->
+            <div class="div-input">
+              <input type="text" class="security-code" required />
+              <label>Código de segurança</label>
+            </div>
+            <!--Input card name-->
+            <div class="div-input">
+              <input type="text" class="card-name" required />
+              <label>Nome no cartão</label>
+            </div>
+            <!--Input CPF-->
+            <div class="div-input">
+              <input type="text" class="cpf" required />
+              <label>CPF</label>
+            </div>
+            <!--Buttons-->
+            <div class="buttons-sign-up">
+              <button class="previous-2">Voltar</button>
+              <button class="sign">Assinar</button>
+            </div>
+          </div>
+          <!---------------Success Page------------------>
+          <div class="page-sign-up success-page">
+            <div class="success">
+              <h2>Cadastro feito com sucesso!</h2>
+              <button class="btn-login">
+                <a href="../login/login.html">Fazer Login</a>
+              </button>
+            </div>
+          </div>
+        </form>
+        <!----------------Logo--------------->
+        <div class="logo">
+          <img src="img/logo-resiliaflix.png" alt="Logo ResiliaFlix" />
         </div>
-      </div>
+      
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

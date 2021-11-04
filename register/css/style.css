@@ -1,141 +1,94 @@
 body {
-    background: rgb(205, 219, 73);
-    overflow: hidden;
+  background: rgb(205, 219, 73);
+  overflow: hidden;
 }
-h2 {
-    text-align: center;
-}
-.general {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    width: 100vw;
-    background: url('../img/minius3.jpg');
-    
 
+h2 {
+  text-align: center;
+}
+
+input {
+  outline: none;
+  font-size: 18px;
+  color: white;
+}
+
+.general {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  background: url("../img/minius3.jpg");
 }
 
 .container {
-    width: 550px;
-    height: 600px;
-    background: rgba(10, 10, 10);
-    border-radius: 5px;
-    color: white;
-    box-shadow: 0px 0px 0.2vh 0px rgba(216, 209, 202, 0.5); 
-    overflow: hidden;
-
+  width: 550px;
+  height: 600px;
+  background: rgba(10, 10, 10);
+  border-radius: 5px;
+  color: white;
+  box-shadow: 0px 0px 0.2vh 0px rgba(216, 209, 202, 0.5);
 }
 
-/******Title*********/
-.header-title {
-    display: flex;
-    justify-content: center;
-
-}
-
+/****** Title *********/
 .title-sign-up {
-    width: 80%;
-    text-align: center;
-    font-size: 30px;
-
+  width: 80%;
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
 }
 
-/***********Form**************/
-.form-outer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  
-   
-}
-
-.form-outer .form {
-  display: flex;
-  width: 1900px;
-  transition: margin-left 0.3s ease-in-out;
-
-  
-
-}
-
-.form-outer .form .page-sign-up {
-    transition: margin-left 0.3s ease-in-out;
-
-}
-
+/*********** Pages **************/
 .page-sign-up {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 550px;
-
-   
-   
-}
-/*************contact page****************/
-input {
-    outline: none;
-    font-size: 18px;
-    color: white;
-}
-
-.div-input {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.payment-page,
+.address-page,
+.success-page {
+  display: none;
+  align-items: center;
+}
+
+.success {
+  width: 95%;
+  height: 300px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.success h2 {
+  font-size: 35px;
+}
+
+.success button {
+  width: 40%;
+}
+
+/************* Inputs ****************/
+.div-input {
   width: 75%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid white;
 }
 
-.div-input input, .div-input-name input, .div-input-fullname input {
-    height: 35px;
-    background: none;
-    border: none;
-    border-bottom: 1px solid white;
+.div-input input {
+  background: none;
+  height: 35px;
+  border: none;
 }
 
-.div-input-name-fullname{
-    display: flex;
-    justify-content:left;
-    width: 75%;
-    margin-top: 10px;
-}
+/********* Address page **************/
 
-.div-state-city, .div-road-number, .div-card  {
-    display: flex;
-    justify-content: center;
-   width: 275px;
-}
-
-.div-input-name {
-    width: 100%;
-    margin-right: 10px;
-}
-
-.div-input-fullname {
-    width: 100%; 
-}
-
-.state, .card-expiration {
-    margin-right: 15px;
-}
-
-.name {
-    width: 95%;
-  
-}
-
-.fullname {
-    width: 96%;
-
-}
-
-.div-input-name label, .div-input-fullname label {
-    margin-left: -192px;
-}
-
-/********Progress bar********/
-.progress-bar {
+/*********Progress bar********/
+/* .progress-bar {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -157,74 +110,62 @@ input {
 
 .bi-square-fill {
     font-size: 25px;
+} */
+
+/********** Button************/
+button {
+  background: #686666;
+  color: #b4b3b3;
+  font-weight: bold;
+  font-size: 24px;
+  height: 50px;
+  width: 150px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.1s linear;
 }
 
-/*Button*/
-.buttons-sign-up button {
-    background: #686666;
-    height: 50px;
-    margin-top: 30px;
-    border-radius: 7px;
-    border: none;
-    color: #b4b3b3;
-    font-size: 24px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.1s linear;
-  }
+button:hover {
+  background: #ffd000;
+  color: #0d0d0d;
+  transition: 0.5s ease;
+}
 
-  .next-1 {
-      width: 200px;
-  }
-  
-  .buttons-sign-up button:hover {
-    background: #ffd000;
-    transition: 0.5s ease;
-    color: #0d0d0d;
-  }
+/*** Links ***/
+a {
+  color: #b4b3b3;
+  text-decoration: none;
+}
 
-  label {
-      color:#35bbf2 ;
-      font-size: 17px;
-      position: absolute;
-      margin-top: 15px;
-      transition: all.3s ease;
-      pointer-events: none;
-  }
+a:hover {
+  color: #0d0d0d;
+}
 
-  input:focus ~ label,
-  input:valid ~ label {
-    font-size: 12px;
-    transform: translateY(-16px);
-  }
+label {
+  color: #35bbf2;
+  font-size: 17px;
+  position: absolute;
+  margin-top: 15px;
+  transition: all.3s ease;
+  pointer-events: none;
+}
 
-  /* label {
-    color: #35bbf2;
-    font-size: 15px;
-    position: absolute;
-    pointer-events: none;
-    transition: all.3s ease;
-    border: 1px solid white;
-  } */
-  
- /*  .div-input:focus ~ label,
-  .div-input:valid ~ label {
-    font-size: 9px;
-    transform: translateY(-22px);
-  } */
+input:focus ~ label,
+input:valid ~ label {
+  font-size: 12px;
+  transform: translateY(-16px);
+}
 
 /*****Logo*****/
 .logo {
-    display: flex;
-    margin-top: 100px;
-    justify-content: center;
-    
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
 }
 
 .logo img {
-    width: 150px;
-}
-
-.success-page {
-    display: none;
+  width: 150px;
+  margin-top: -40px;
 }
