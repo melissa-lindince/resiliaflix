@@ -1,6 +1,10 @@
 body {
+<<<<<<< HEAD
   background: black;
+=======
+>>>>>>> 223a5e3c2204b7e79719717a2a87a17becadd25d
   overflow: hidden;
+  background: url("../img/background.jpeg");
 }
 
 h2 {
@@ -19,7 +23,10 @@ input {
   justify-content: center;
   min-height: 100vh;
   width: 100vw;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 223a5e3c2204b7e79719717a2a87a17becadd25d
 }
 
 .container {
