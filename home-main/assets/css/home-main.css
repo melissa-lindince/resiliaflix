@@ -1,0 +1,261 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0D0D0D;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 7%;
+    background-image: linear-gradient(
+      to top,
+      rgba(255, 0, 0, 0),
+      rgb(22, 21, 21)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-bar {
+    width: 96%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.right-side{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login-btn{
+    background: none;
+    border: none;
+}
+
+.login-btn > a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.register-btn{
+    background-color: #FFD000;
+    border-radius: 20px;
+    border: none;
+    width: 50%;
+    height: 30px;
+    word-wrap: break-word;
+}
+
+.register-btn > a, .placard-btn > a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.trailer > img{
+    width: 100%;
+    height: 550px;
+}
+
+.placard{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    margin-top: -170px;
+    margin-bottom: 100px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #0D0D0D, #0D0D0D);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+} 
+
+.placard > h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.line-1{
+    width: 30%;
+    border: 1px solid #01a9ce;
+    margin-top: -15px;
+}
+
+.p1{
+    font-size: 30px;
+}
+
+.p2{
+    font-size: 14px;
+}
+
+.placard-btn{
+    width: 17%;
+    height: 50px;
+    background-color: #FFD000;
+    border-radius: 20px;
+    border: none;
+    word-wrap: break-word;
+}
+
+.background-carrossel{
+    width: 100%;
+}
+
+.title-carousel{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.item{
+    margin-right: 5px;
+}
+
+.item > img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #35BBF2;
+}
+
+.text > h2{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title > h3, .title-carousel{
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.gradient{
+    width: 100%;
+    position: relative;
+    background-image: linear-gradient(to bottom, #01a9ce, #00b0ce, #00b6cc, #00bdca, #00c3c6, #00b4bd, #00a4b2, #0095a7, #266e87, #2e4a5f, #242a35, #0d0d0d);
+    height: 250px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gradient-register-btn{
+    background-color: #FFD000;
+    border-radius: 20px;
+    border: none;
+    width: 210px;
+    height: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.gradient-register-btn > a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.line-2{
+    border: 1px solid #01a9ce;
+    width: 90%;
+    margin-top: -15px;
+}
+
+.devices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.devices-img > img{
+    width: 60%;
+    height: 40%;
+    margin-left: 20%;
+}
+
+.information{
+    display: flex;
+    background-image: linear-gradient(to top, #36362E, #0D0D0D);
+    height: 250px;
+    margin-top: -50px;
+    color: #FFFFFF;
+}
+
+.line-3{
+    width: 20%;
+    border: 1px solid #01a9ce;
+}
+
+.info{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.line-4{
+    border: 1px solid #01a9ce;
+}
+
+.names{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    color: #FFD000;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.developer-contact > a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.icons{
+    width: 40%;
+}
+
+.bi{
+    font-size: 30px;
+}
+
+.copyright{
+    color: #FFFFFF;
+}
+
+.copyright > p{
+    margin-top: 15%;
+}

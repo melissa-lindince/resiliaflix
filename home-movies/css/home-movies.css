@@ -1,44 +1,44 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #131212;
-    font-family: 'Roboto', sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #131212;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
-    position: absolute;
-    width: 100%;
-    height: 7%;
-    background-image: linear-gradient(
-      to top,
-      rgba(255, 0, 0, 0),
-      rgb(22, 21, 21)
-    );
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 7%;
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 0, 0, 0),
+    rgb(22, 21, 21)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .top-bar {
-    width: 96%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 96%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .links {
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .links a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
 .logo img {
@@ -47,29 +47,54 @@ header {
 
 .bi-person-circle {
   font-size: 30px;
-  color: #FFD000;
+  color: #ffd000;
 }
 
+/*********** Carrossel ****************/
 .item-img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.item:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
 
 .trailer {
-    width: 100%;
-    height: 360px;
-    position: static;
+  background: url("../../img/carousel/image08.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  position: static;
 }
 
-.trailer img{
-    width: 100%;
-    height: inherit;
+
+.title {
+  height: 70px;
+  background: linear-gradient(
+    180deg,
+    rgba(13, 13, 13, 0) 50%,
+    #0d0d0d 100%,
+    #0d0d0d 100%
+  );
+  display: flex;
 }
 
-.favorites, .popular{
-    color: #FFFFFF;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    padding-left: 1%;
+p {
+  font-weight: bold;
+}
+
+.favorites {
+  margin-top: -100px;
+}
+
+.favorites,
+.popular {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
 }
