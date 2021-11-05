@@ -7,78 +7,69 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-.user {
-    font-size: 1.5rem;
-    color: #FFD000;
-    margin-right: 3%;
+header {
+    position: absolute;
+    width: 100%;
+    height: 7%;
+    background-image: linear-gradient(
+      to top,
+      rgba(255, 0, 0, 0),
+      rgb(22, 21, 21)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .top-bar {
-    position: relative;
-    left: 0;
-    top: 0;
-    width: 100%;
+    width: 96%;
+    height: 100%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(to top, rgba(255,0,0,0),  rgb(22, 21, 21));
-    height: 50px;
+    align-items: center;
 }
 
-.logo > img{
-    width: 35%;
-    height: 35%;
-    margin-left: 3%;
+.links {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.links > a{
+.links a {
     text-decoration: none;
-    color: #FFFFFF;
-    margin-right: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.bi-person-circle {
+  font-size: 30px;
+  color: #FFD000;
 }
 
 .item-img {
     width: 100%;
     height: auto;
     border-radius: 5px;
-    width: 230px;
-    height: 143px;
 }
 
 .trailer {
-    height: 500px;
     width: 100%;
-
+    height: 360px;
+    position: static;
 }
 
-.video{
+.trailer img{
     width: 100%;
-    height: 100%;
+    height: inherit;
 }
-
-/* .trailer > video {
-    width: 100%;
-    height: 100%;
-    border-style: none;
-} */
 
 .favorites, .popular{
     color: #FFFFFF;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
     padding-left: 1%;
-}
-
-.trailer {
-    height: 360px;
-    width: 100%;
-    position: relative;
-}
-
-.trailer video {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  object-fit: cover;
-  z-index: 0;
 }
