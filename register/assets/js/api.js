@@ -1,7 +1,8 @@
 const form = (address) =>{
-   document.getElementById('road').value = address.lougradouro;
+   console.log(address)
+   document.getElementById('road').value = address.logradouro;
    document.getElementById('district').value = address.bairro;
-   document.getElementById('city').value = address.cidade;
+   document.getElementById('city').value = address.localidade;
    document.getElementById('state').value = address.uf;
 }
 
