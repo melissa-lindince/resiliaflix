@@ -104,7 +104,7 @@ header {
   justify-content: center;
 }
 
-#triangle {
+.triangle {
   width: 198px;
   height: 140px;
 }
@@ -119,10 +119,11 @@ header {
   width: 100%;
 }
 
-#name {
+.name {
   font-size: 14px;
   font-family: sans-serif;
   text-align: center;
+  margin-top: -10px;
 }
 
 .group-contact {
@@ -136,15 +137,15 @@ header {
 }
 
 /*********Icons social media**********/
-#github-icon,
-#linkedin-icon {
+.github-icon,
+.linkedin-icon {
   width: 20px;
   height: 20px;
   margin-right: 5px;
 }
 
-#linkedin-written,
-#github-written {
+.linkedin-written,
+.github-written {
   font-family: "Open Sans Condensed";
   font-weight: bold;
   font-size: 14px;
@@ -155,22 +156,17 @@ header {
 }
 
 /***********Logo**************/
-.logo {
-  justify-content: flex-end;
-  display: flow-root;
-}
-
-#logo-resiliaflix {
+.logo-resiliaflix {
   width: 400px;
   height: 150px;
 }
 
-#logo-resiliaflix:hover {
+.logo-resiliaflix:hover {
   width: 403px;
   height: 153px;
 }
 
-#background-logo {
+.background-logo {
   background: radial-gradient(
     50% 50% at 50% 50%,
     rgba(13, 13, 13, 0.8) 0%,

@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ResiliaFlix</title>
+    <!--JS-->
+    <script defer src="assets/js/register.js"></script>
+    <script defer src="assets/js/api.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ResiliaFlix</title>
-  <!--JS-->
-  <script defer src="assets/js/register.js"></script>
-  <script defer src="assets/js/api.js"></script>
-  <!--CSS-->
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <!--Bootstrap-->
-  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css" />
-</head>
-
-<body>
-  <div class="general">
-    <!--Entry form-->
-    <div class="container">
+  <body>
+    <div class="general">
+      <!--Entry form-->
+      <div class="container">
         <form action="#" class="form">
           <!--Progress bar-->
           <!--  <div class="progress-bar">
@@ -40,7 +42,7 @@
                 Crie sua conta e tenha a melhor experiência!
               </h2>
             </header>
-              <!--Input name-->
+            <!--Input name-->
             <div class="div-input">
               <input type="text" class="name" required />
               <label class="label-contact">Nome</label>
@@ -52,7 +54,12 @@
             </div>
             <!--Input email-->
             <div class="div-input">
-              <input type="email" class="email" required />
+              <input
+                type="email"
+                class="email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                required
+              />
               <label class="label-contact">email</label>
             </div>
             <!--Input password-->
@@ -61,12 +68,12 @@
               <label class="label-contact">Senha secreta</label>
             </div>
             <div class="div-input">
-              <input type="password" class="password" required />
+              <input type="password" class="password password2" required />
               <label class="label-contact">Novamente a senha secreta</label>
             </div>
             <!--Button-->
             <div class="buttons-sign-up next-btn">
-              <button class="next-1 next-btn">Avançar</button>
+              <button onclick="next()" type="submit" class="next-1 next-btn">Avançar</button>
             </div>
           </div>
           <!--------------Address page---------------->
@@ -115,7 +122,7 @@
             <!--Buttons-->
             <div class="buttons-sign-up">
               <button class="previous-1 previous">Voltar</button>
-              <button class="next-2 next-btn">Avançar</button>
+              <button  type="submit" class="next-2 next-btn">Avançar</button>
             </div>
           </div>
           <!-------------Payment page---------------->
@@ -154,14 +161,14 @@
             <!--Buttons-->
             <div class="buttons-sign-up">
               <button class="previous-2">Voltar</button>
-              <button class="sign">Assinar</button>
+              <button type="submit" class="sign">Assinar</button>
             </div>
           </div>
           <!---------------Success Page------------------>
           <div class="page-sign-up success-page">
             <div class="success">
               <h2>Cadastro feito com sucesso!</h2>
-              <button class="btn-login">
+              <button type="submit" class="btn-login">
                 <a href="../login/login.html">Fazer Login</a>
               </button>
             </div>
@@ -169,11 +176,9 @@
         </form>
         <!----------------Logo--------------->
         <div class="logo">
-          <img src="img/logo-resiliaflix.png" alt="Logo ResiliaFlix" />
+          <img src="../img/logo/logo-resiliaflix.png" alt="ResiliaFlix" />
         </div>
-      
+      </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>

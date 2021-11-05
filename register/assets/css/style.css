@@ -1,5 +1,5 @@
 body {
-  background: rgb(205, 219, 73);
+  background: black;
   overflow: hidden;
 }
 
@@ -19,7 +19,7 @@ input {
   justify-content: center;
   min-height: 100vh;
   width: 100vw;
-  background: url("../img/minius3.jpg");
+
 }
 
 .container {
