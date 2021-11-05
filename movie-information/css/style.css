@@ -1,89 +1,198 @@
+:root {
+  --text-color: #35bcf2cb;
+  --color-yellow: #ffd000;
+}
+
+p {
+  color: white;
+}
+
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .general {
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 /********** Header *************/
 header {
-    position:absolute;
-    width: 100%;
-}
-
-.user {
-    font-size: 1.5rem;
-    color: #ffd000;
-    margin-right: 2%;
+  position: absolute;
+  width: 100%;
+  height: 7%;
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 0, 0, 0),
+    rgb(22, 21, 21)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .top-bar {
-    background-image: linear-gradient(
-        to top,
-        rgba(255, 0, 0, 0),
-        rgb(22, 21, 21)
-        );
-        position: relative;
-        width: 100%;
-        height: 50px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .logo > img {
-        width: 35%;
-        height: 35%;
-        margin-left: 3%;
-    }
-    
-    .links > a {
-        text-decoration: none;
-        color: #ffffff;
-        margin-left: 50px;   
-    }
-    
-    /************ Poster ***************/
-    .poster {
-        background: url('../img/image01.jpg') no-repeat;
-        background-position: center;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: flex-end;
-    }
-    
-    /************ Movie info**********/
-    .container {
-        width: 100%;
-        height: 40%;
-        background:rgba(0, 0, 0, 0.377);
-        color: blanchedalmond;
-    }
+  width: 96%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-    .buttons {
-        display: flex;
-        width: 100%;
-        justify-content: right;
-        border: none;
-        border-radius: 8px;
-    }
+.links {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
 
-    .info{
-        display: flex;
-        justify-content: space-between;
-        color: #ffffff;
-        margin-left: 50px;
-    }
+.links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
 
-    .movie-length {
-        border: 1px solid white;
-        margin-right: 50px;
-    }
-    
-    
+.logo img {
+  width: 100px;
+}
+
+.bi-person-circle {
+  font-size: 30px;
+  color: var(--color-yellow);
+}
+
+/************ Poster ***************/
+.poster {
+  background: url("../img/frozen2.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+/************ Movie info**********/
+.container {
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(
+    180deg,
+    rgba(13, 13, 13, 0) 0%,
+    #0d0d0d 59.37%,
+    #0d0d0d 99.99%
+  );
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-btn {
+  display: flex;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons {
+  display: flex;
+  width: 96%;
+  justify-content: right;
+  align-items: center;
+}
+
+.play {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 150px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.bi-play-fill {
+  font-size: 30px;
+  margin-top: 2px;
+}
+
+.bi-bookmark-heart {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.bi-bookmark-heart:hover {
+  color: pink;
+}
+
+.bi-tv {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/************* Movie info ****************/
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+}
+
+.info-movie .p-info {
+  width: 48%;
+  font-weight: bold;
+  color: white;
+  line-height: 18px;
+}
+
+.info-cast {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cast p {
+  width: 200px;
+}
+
+h3 {
+  color: #8c8c8c;
+}
+
+.direction {
+  width: 100px;
+}
+
+.movie-length {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.duration {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.duration h4 {
+  font-size: 20px;
+  color: white;
+}
+
+.icon-star {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bi-star {
+  font-size: 30px;
+}
+
