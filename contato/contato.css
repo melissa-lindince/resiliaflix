@@ -91,7 +91,8 @@ header {
 .bi-search {
     width: 20px;
     color: #F2F2F2;
-  
+}
+
 .bi-search:hover {
     font-size: 22px;
 }
@@ -119,7 +120,7 @@ header {
 .developers {
     width: 60%;
     margin-top: 80px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     display: flex;
 }
 
@@ -211,6 +212,11 @@ header {
 #logo-resiliaflix {
     width: 400px;
     height: 150px;
+}
+
+#logo-resiliaflix:hover {
+    width: 403px;
+    height: 153px;
 }
 
 #background-logo{
