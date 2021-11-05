@@ -28,12 +28,12 @@ a {
 
 .box {
   background-color: #0d0d0d;
-  width: 450px;
-  height: 400px;
+  width: 400px;
+  height: 430px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 12px;
 }
 
 /********* Logo ***********/
@@ -60,16 +60,18 @@ a {
 .container-email {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid var(--border-color);
+  width: 328px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .container-email input {
   background: none;
   color: #f5f1f1;
   font-size: 20px;
-  width: 98%;
-  height: 35px;
-  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  margin-top: 14px;
   border: none;
   outline: none;
 }
@@ -77,11 +79,12 @@ a {
 /********* Label *********/
 label {
   color: #35bbf2;
-  font-size: 15px;
+  font-size: 14px;
   margin-top: 30px;
   position: absolute;
   pointer-events: none;
   transition: all.3s ease;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .container-email input:focus ~ label,
@@ -96,7 +99,7 @@ label {
   color: #0d0d0d;
   font-weight: bold;
   font-size: 20px;
-  width: 72%;
+  width: 328px;
   height: 40px;
   margin-bottom: 20px;
   border: none;
