@@ -17,11 +17,6 @@ a {
 }
 
 .general {
-<<<<<<< HEAD
-=======
-  background: url("../img/background.jpeg") no-repeat center;
-  background-size: cover;
->>>>>>> 223a5e3c2204b7e79719717a2a87a17becadd25d
   width: 100vw;
   height: 100vh;
   display: flex;
