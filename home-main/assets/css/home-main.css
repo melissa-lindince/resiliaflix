@@ -8,15 +8,23 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #050505;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+/************** Header *******************/
 header {
-    position: absolute;
-    width: 100%;
-    height: 7%;
     background-image: linear-gradient(
       to top,
       rgba(255, 0, 0, 0),
       rgb(22, 21, 21)
     );
+    position: absolute;
+    width: 100%;
+    height: 7%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,64 +38,72 @@ header {
     align-items: center;
 }
 
+/****** Logo ********/
 .logo img{
     width: 100px;
 }
 
+/*** Btns header ***/
 .right-side{
-    width: 30%;
+    width: 300px;
+    height: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .login-btn{
     background: none;
     border: none;
+    cursor: pointer;
+
 }
 
 .login-btn > a{
     text-decoration: none;
     color: #FFFFFF;
     font-weight: bold;
+
 }
 
 .register-btn{
     background-color: #FFD000;
     border-radius: 20px;
     border: none;
-    width: 50%;
-    height: 30px;
-    word-wrap: break-word;
+    width: 200px;
+    height: 35px;
 }
 
-.register-btn > a, .placard-btn > a{
+.register-btn > a {
     text-decoration: none;
-    color: #FFFFFF;
-    font-size: 15px;
+    color: #0f0d0d;
+    font-size: 100%;
     font-weight: bold;
 }
 
-.trailer > img{
+/************ Background movie *************/
+.trailer-main {
+    background: url('../../../img/carousel/image08.png') no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 100%;
-    height: 550px;
+    height: 900px;
 }
 
 .placard{
     width: 100%;
-    height: 350px;
-    position: relative;
-    margin-top: -170px;
-    margin-bottom: 100px;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #0D0D0D, #0D0D0D);
+    height: 900px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #0D0D0D);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
+    justify-content:flex-end;
     color: #FFFFFF;
+    position: absolute;
 } 
 
 .placard > h2{
     font-size: 45px;
-    font-weight: bold;
 }
 
 .line-1{
@@ -105,14 +121,14 @@ header {
 }
 
 .placard-btn{
+    background-color: #FFD000;
     width: 17%;
     height: 50px;
-    background-color: #FFD000;
     border-radius: 20px;
     border: none;
-    word-wrap: break-word;
 }
 
+/************* Carousel ****************/
 .background-carrossel{
     width: 100%;
 }
@@ -147,6 +163,7 @@ header {
     text-align: center;
 }
 
+/*********** Placard gradient ***********/
 .gradient{
     width: 100%;
     position: relative;
@@ -170,7 +187,7 @@ header {
 
 .gradient-register-btn > a{
     text-decoration: none;
-    color: #FFFFFF;
+    color: #080808;
 }
 
 .line-2{
@@ -178,6 +195,8 @@ header {
     width: 90%;
     margin-top: -15px;
 }
+
+/******* Devices *******/
 
 .devices{
     display: flex;
@@ -198,11 +217,7 @@ header {
     height: 250px;
     margin-top: -50px;
     color: #FFFFFF;
-}
-
-.line-3{
-    width: 20%;
-    border: 1px solid #01a9ce;
+    justify-content: space-evenly;
 }
 
 .info{
@@ -210,6 +225,12 @@ header {
     margin-top: 50px;
 }
 
+.line-3{
+    width: 20%;
+    border: 1px solid #01a9ce;
+}
+
+/************* Footer *****************/
 .footer{
     height: 200px;
     display: flex;
@@ -244,6 +265,7 @@ header {
     color: #FFFFFF;
 }
 
+/************** Icons**************/
 .icons{
     width: 40%;
 }
@@ -252,6 +274,7 @@ header {
     font-size: 30px;
 }
 
+/********* Copyright**************/
 .copyright{
     color: #FFFFFF;
 }
