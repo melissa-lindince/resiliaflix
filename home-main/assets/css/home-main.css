@@ -282,3 +282,34 @@ header {
 .copyright > p{
     margin-top: 15%;
 }
+
+@media (max-width: 1000px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+
+    }
+
+    .developer-contact {
+        font-size: 12px;
+        width: 200px;
+        margin-top: 2px;
+    }
+
+    .copyright  {
+        display: flex;
+        align-items:flex-start;
+    }
+
+    .copyright p{
+        width: 250px;
+        margin-top: 15px;
+
+    }
+}
