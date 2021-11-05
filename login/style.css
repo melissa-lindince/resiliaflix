@@ -69,11 +69,12 @@ body {
 
 label {
   color: var(--text-color);
-  font-size: 15px;
-  margin-top: -19px;
+  font-size: 13px;
+  margin-top: -27px;
   position: absolute;
   transition: all.3s ease;
   pointer-events: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 input:focus ~ label,
@@ -131,6 +132,15 @@ input:valid ~ label {
   height: 40px;
   margin-top: 20px;
   cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.techtalents-button:hover {
+  width: 81%;
+  height: 42px;
+  font-weight: bold;
 }
 
 /**********Links***************/
@@ -140,8 +150,13 @@ input:valid ~ label {
 
 .recover-password a {
   color: var(--text-color);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-decoration: none;
+  font-size: 14px;
+}
+
+.recover-password a:hover {
+  font-size: 15px;
 }
 
 /***Registration link***/
@@ -154,23 +169,43 @@ input:valid ~ label {
 .registration-msg {
   color: var(--text-color);
   font-family: Arial, Helvetica, sans-serif;
-  margin-right: 30px;
+  margin-right: 6px;
+  margin-bottom: 0vh;
 }
 
 .container-registration a {
   background: none;
   color: var(--text-color);
-  font-weight: bold;
-  height: 15px;
+  height: 18px;
+  margin-bottom: -2vh;
+  margin-right: 0vh;
+  font-family: Arial, Helvetica, sans-serif;
   border: none;
   text-decoration: none;
 }
 
-/*******Icon eye********/
-.bi-eye {
+.registration-link:hover {
+  font-weight: bold;
+}
+
+/*******Icons********/
+.bi-eye-slash {
   color:var(--color-yellow);
   margin-left: 307px;
-  margin-top: -19px;
+  margin-top: -24px;
+  position: absolute;
+}
+
+.bi-reply-fill {
+  transform: scaleX(-1);
   position: absolute;
   cursor: pointer;
+  /* border: 1px solid white; */
+  line-height: 15px;
+  font-size: 14px;
+  color: #35bcf2cb;
+}
+
+.bi-reply-fill:hover {
+  font-size: 16px;
 }
