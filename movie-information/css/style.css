@@ -64,7 +64,7 @@ header {
 
 /************ Poster ***************/
 .poster {
-  background: url("../img/frozen2.jpeg") no-repeat;
+  background: url("../img/image01.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -305,4 +305,3 @@ h3 {
 .bi-star {
   font-size: 30px;
 }
-
