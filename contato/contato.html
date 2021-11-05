@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ResiliaFlix</title>
     <!--CSS-->
-    <link rel="stylesheet" href="contato.css" />
+    <link rel="stylesheet" href="assets/css/contato.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <!--Bootstrap-->
     <link
       rel="stylesheet"
@@ -16,49 +17,23 @@
 
   <body>
     <!--Div general-->
-    <div class="all">
+    <div class="general">
       <!--Header-->
       <header>
-        <div class="upper-gradient">
-          <!--Logo top-->
-          <div class="upper-left">
-            <a 
-            href="../home-main/home-main.html"
-            target="_blank"
-            >
-            <img 
-            id="icon-logo" 
-            src="../img/logo.png"/>
-            </a>
+        <!-- Top bar -->
+        <nav class="top-bar">
+          <div class="logo">
+            <img src="../movie-information/img/logo.png" alt="logo" />
           </div>
-          <!--Links home-->
-          <div class="upper-middle">
-            <a 
-            id="inicio-page" 
-            href="../home-main/home-main.html"
-            target="_blank"
-            >INÍCIO
-            </a>
-            <a 
-            id="filmes-page" 
-            href="../home-movies/home-movies.html"
-            target="_blank"
-            >FILMES
-            </a>
-            <a 
-            id="favoritos-page" 
-            href="../search-movie/search-movie.html"
-            target="_blank"
-            >FAVORITOS
-            </a>
+          <div class="links">
+            <a href="url">INÍCIO</a>
+            <a href="url">FILMES</a>
+            <a href="url">FAVORITOS</a>
           </div>
-          <!--Icons search and users-->
-          <div class="upper-right">
-            <a href="../search-movie/search-movie.html">
-            <i class="bi bi-search"></i></a>
+          <div class="user">
             <i class="bi bi-person-circle"></i>
           </div>
-        </div>
+        </nav>
       </header>
       <!--Tittle main-->
       <div class="upper-title">
@@ -66,228 +41,211 @@
       </div>
       <!--Container bottom-->
       <div class="container">
-          <div class="developers">
-            <!--Developer social media-->
-            <div class="owner">
-              <div class="group-photo">
-                <!--Photo Maurilio-->
-                <div class="photo-owner">
-                  <h2 id="name">MARÍLIO MARQUES</h2>
-                  <img
-                    id="picture"
-                    src="../img/img-integrantes/Ellipse 1.png"
-                  />
-                </div>
-                <!--Image triangle-->
-                <img id="triangle" src="../img/Polygon 4.png" />
+        <div class="developers">
+          <!--Developer social media-->
+          <div class="owner">
+            <div class="group-photo">
+              <!--Photo Maurilio-->
+              <div class="photo-owner">
+                <h2 id="name">MAURÍLIO MARQUES</h2>
+                <img id="picture" src="../img/img-integrantes/Ellipse 1.png" />
               </div>
-              <div class="group-contact">
-                <!--Github-->
-                <a
-                  id="github-written"
-                  href="https://github.com/MAURILIOMARQUES"
-                  target="_blank"
-                >
-                <i class="bi bi-github"></i>
-                  mauriliomarques
-                </a>
-                <!--Linkedin-->
-                <a
-                  id="linkedin-written"
-                  href="https://www.linkedin.com/in/mauriliomarques/"
-                  target="_blank"
-                >
-                <i class="bi bi-linkedin"></i>
-                  mauriliomarques
-                </a>
-              </div>
+              <!--Image triangle-->
+              <img id="triangle" src="../img/Polygon 4.png" />
             </div>
-
-            <div class="owner">
-              <div class="group-photo">
-                <!--Photo Anna-->
-                <div class="photo-owner">
-                  <h2 id="name">ANNA CAROLINA</h2>
-                  <img
-                    id="picture"
-                    src="../img/img-integrantes/Ellipse 3.png"
-                  />
-                </div>
-                <!--Image triangle-->
-                <img id="triangle" src="../img/Polygon 4.png" />
-              </div>
-              <div class="group-contact">
-                <!--Github-->
-                <a 
-                id="github-written" 
-                href="https://github.com/anncarln"
+            <div class="group-contact">
+              <!--Github-->
+              <a
+                id="github-written"
+                href="https://github.com/MAURILIOMARQUES"
                 target="_blank"
-                >
+              >
                 <i class="bi bi-github"></i>
-                  anncarln
-                </a>
-                <!--Linkedin-->
-                <a
-                  id="linkedin-written"
-                  href="https://www.linkedin.com/in/anncrlna/"
-                  target="_blank"
-                >
-                <i class="bi bi-linkedin"></i>
-                  anncrlna
-                </a>
-              </div>
-            </div>
-
-            <div class="owner">
-              <div class="group-photo">
-                <!--Photo Raí-->
-                <div class="photo-owner">
-                  <h2 id="name">RAÍ AUGUSTO</h2>
-                  <img
-                    id="picture"
-                    src="../img/img-integrantes/Ellipse 4.png"
-                  />
-                </div>
-                <!--Image triangle-->
-                <img id="triangle" src="../img/Polygon 4.png" />
-              </div>
-              <div class="group-contact">
-                <!--Github-->
-                <a 
-                    id="github-written" 
-                    href="https://github.com/raiaugusto"
-                    target="_blank"
-                >
-                <i class="bi bi-github"></i>
-                  raiaugusto
-                </a>
-                <!--Linkedin-->
-                <a
-                  id="linkedin-written"
-                  href="https://www.linkedin.com/in/raiaugusto/"
-                  target="_blank"
-                >
-                <i class="bi bi-linkedin"></i>
-                  raiaugusto
-                </a>
-              </div>
-            </div>
-
-            <div class="owner">
-              <div class="group-photo">
-                <!--Photo Melissa-->
-                <div class="photo-owner">
-                  <h2 id="name">MELISSA LINDINCE</h2>
-                  <img
-                    id="picture"
-                    src="../img/img-integrantes/Ellipse 2.png"
-                  />
-                </div>
-                <!--Image triangle-->
-                <img id="triangle" src="../img/Polygon 4.png" />
-              </div>
-              <div class="group-contact">
-                <!--Github-->
-                <a
-                  id="github-written"
-                  href="https://github.com/melissa-lindince"
-                  target="_blank"
-                >
-                <i class="bi bi-github"></i>
-                  melissaLin
-                </a>
-                <!--Linkedin-->
-                <a
-                  id="linkedin-written"
-                  href="https://www.linkedin.com/in/melissa-lindince/"
-                  target="_blank"
-                >
-                <i class="bi bi-linkedin"></i>
-                  melissaLin
-                </a>
-              </div>
-            </div>
-
-            <div class="owner">
-              <div class="group-photo">
-                <!--Photo Matheus-->
-                <div class="photo-owner">
-                  <h2 id="name">MATHEUS HENRIQUE</h2>
-                  <img
-                    id="picture"
-                    src="../img/img-integrantes/Ellipse 5.png"
-                  />
-                </div>
-                <!--Image triangle-->
-                <img id="triangle" src="../img/Polygon 4.png" />
-              </div>
-              <div class="group-contact">
-                <!--Github-->
-                <a 
-                    id="github-written" 
-                    href="https://github.com/Matchenri"
-                    target="_blank"
-                >
-                <i class="bi bi-github"></i>
-                  matchenri
-                </a>
-                <!--Linkedin-->
-                <a
-                  id="linkedin-written"
-                  href="https://www.linkedin.com/in/matheus-henrique-herculano-alves-b2b261148"
-                  target="_blank"
-                >
-                <i class="bi bi-linkedin"></i>
-                   matchenri
-                </a>
-              </div>
-            </div>
-
-            <div class="owner">
-              <div class="group-photo">
-                <!--Photo Isa-->
-                <div class="photo-owner">
-                  <h2 id="name">ISABEL LACERDA</h2>
-                  <img
-                    id="picture"
-                    src="../img/img-integrantes/Ellipse 6.png"
-                  />
-                </div>
-                <!--Image triangle-->
-                <img id="triangle" src="../img/Polygon 4.png" />
-              </div>
-              <div class="group-contact">
-                <!--Github-->
-                <a 
-                id="github-written" 
-                href="https://github.com/lacerdaisab"
+                mauriliomarques
+              </a>
+              <!--Linkedin-->
+              <a
+                id="linkedin-written"
+                href="https://www.linkedin.com/in/mauriliomarques/"
                 target="_blank"
-                >
-                <i class="bi bi-github"></i>
-                  lacerdaisab
-                </a>
-                <!--Linkedin-->
-                <a
-                  id="linkedin-written"
-                  href="https://www.linkedin.com/in/lacerdaisab/"
-                  target="_blank"
-                >
+              >
                 <i class="bi bi-linkedin"></i>
-                  lacerdaisab
-                </a>
-              </div>
-            </div>
-          </div>
-        <!---------- Logo -------->
-          <div class="logo">
-            <div id="background-logo">
-              <a 
-                href="../home-main/home-main.html"
-                target="_blank"
-                ><img id="logo-resiliaflix" src="../img/logo.png" />
+                mauriliomarques
               </a>
             </div>
           </div>
+
+          <div class="owner">
+            <div class="group-photo">
+              <!--Photo Anna-->
+              <div class="photo-owner">
+                <h2 id="name">ANNA CAROLINA</h2>
+                <img id="picture" src="../img/img-integrantes/Ellipse 3.png" />
+              </div>
+              <!--Image triangle-->
+              <img id="triangle" src="../img/Polygon 4.png" />
+            </div>
+            <div class="group-contact">
+              <!--Github-->
+              <a
+                id="github-written"
+                href="https://github.com/anncarln"
+                target="_blank"
+              >
+                <i class="bi bi-github"></i>
+                anncarln
+              </a>
+              <!--Linkedin-->
+              <a
+                id="linkedin-written"
+                href="https://www.linkedin.com/in/anncrlna/"
+                target="_blank"
+              >
+                <i class="bi bi-linkedin"></i>
+                anncrlna
+              </a>
+            </div>
+          </div>
+
+          <div class="owner">
+            <div class="group-photo">
+              <!--Photo Raí-->
+              <div class="photo-owner">
+                <h2 id="name">RAÍ AUGUSTO</h2>
+                <img id="picture" src="../img/img-integrantes/Ellipse 4.png" />
+              </div>
+              <!--Image triangle-->
+              <img id="triangle" src="../img/Polygon 4.png" />
+            </div>
+            <div class="group-contact">
+              <!--Github-->
+              <a
+                id="github-written"
+                href="https://github.com/raiaugusto"
+                target="_blank"
+              >
+                <i class="bi bi-github"></i>
+                raiaugusto
+              </a>
+              <!--Linkedin-->
+              <a
+                id="linkedin-written"
+                href="https://www.linkedin.com/in/raiaugusto/"
+                target="_blank"
+              >
+                <i class="bi bi-linkedin"></i>
+                raiaugusto
+              </a>
+            </div>
+          </div>
+
+          <div class="owner">
+            <div class="group-photo">
+              <!--Photo Melissa-->
+              <div class="photo-owner">
+                <h2 id="name">MELISSA LINDINCE</h2>
+                <img id="picture" src="../img/img-integrantes/Ellipse 2.png" />
+              </div>
+              <!--Image triangle-->
+              <img id="triangle" src="../img/Polygon 4.png" />
+            </div>
+            <div class="group-contact">
+              <!--Github-->
+              <a
+                id="github-written"
+                href="https://github.com/melissa-lindince"
+                target="_blank"
+              >
+                <i class="bi bi-github"></i>
+                melissaLin
+              </a>
+              <!--Linkedin-->
+              <a
+                id="linkedin-written"
+                href="https://www.linkedin.com/in/melissa-lindince/"
+                target="_blank"
+              >
+                <i class="bi bi-linkedin"></i>
+                melissaLin
+              </a>
+            </div>
+          </div>
+
+          <div class="owner">
+            <div class="group-photo">
+              <!--Photo Matheus-->
+              <div class="photo-owner">
+                <h2 id="name">MATHEUS HENRIQUE</h2>
+                <img id="picture" src="../img/img-integrantes/Ellipse 5.png" />
+              </div>
+              <!--Image triangle-->
+              <img id="triangle" src="../img/Polygon 4.png" />
+            </div>
+            <div class="group-contact">
+              <!--Github-->
+              <a
+                id="github-written"
+                href="https://github.com/Matchenri"
+                target="_blank"
+              >
+                <i class="bi bi-github"></i>
+                matchenri
+              </a>
+              <!--Linkedin-->
+              <a
+                id="linkedin-written"
+                href="https://www.linkedin.com/in/matheus-henrique-herculano-alves-b2b261148"
+                target="_blank"
+              >
+                <i class="bi bi-linkedin"></i>
+                matchenri
+              </a>
+            </div>
+          </div>
+
+          <div class="owner">
+            <div class="group-photo">
+              <!--Photo Isa-->
+              <div class="photo-owner">
+                <h2 id="name">ISABEL LACERDA</h2>
+                <img id="picture" src="../img/img-integrantes/Ellipse 6.png" />
+              </div>
+              <!--Image triangle-->
+              <img id="triangle" src="../img/Polygon 4.png" />
+            </div>
+            <div class="group-contact">
+              <!--Github-->
+              <a
+                id="github-written"
+                href="https://github.com/lacerdaisab"
+                target="_blank"
+              >
+                <i class="bi bi-github"></i>
+                lacerdaisab
+              </a>
+              <!--Linkedin-->
+              <a
+                id="linkedin-written"
+                href="https://www.linkedin.com/in/lacerdaisab/"
+                target="_blank"
+              >
+                <i class="bi bi-linkedin"></i>
+                lacerdaisab
+              </a>
+            </div>
+          </div>
+        </div>
+        <!---------- Logo -------->
+        <div class="logo">
+          <div id="background-logo">
+            <a href="../home-main/home-main.html" target="_blank"
+              ><img
+                id="logo-resiliaflix"
+                src="../img/logo/logo-resiliaflix.png"
+              />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </body>
