@@ -22,23 +22,33 @@ const fullNameElem = document.querySelector(".fullname")
 const emailElem = document.querySelector(".email")
 const passwordElem = document.querySelector(".password")
 const password2Elem = document.querySelector(".password2")
+const numberHouse = document.querySelector(".number-house")
+const complement = document.querySelector(".complement")
 
 let validate = {
     "exists": (v) => v.length != 0,
     "email": (v) => validateEmail(v),
-    "password": (v1, v2) => v1 == v2 && parseInt(v1).length > 5,
+    "password": (v1, v2) => v1 == v2 && v1.length > 5,
+    "isNumber": (v) => true
 }
 
 let elems = [contactPage, addressPage, paymentPage, successPage];
 let state = 0
 
 let validations = [
-    () => validate["exists"](nameElem.value) && validate["exists"](fullNameElem.value) && validate['email'](emailElem.value) && validate['password'](passwordElem.value, password2Elem.value)
+    () => validate["exists"](nameElem.value) &&
+    validate["exists"](fullNameElem.value) &&
+    validate['email'](emailElem.value) &&
+    validate['password'](passwordElem.value, password2Elem.value),
+    () => validate['isNumber'](numberHouse.innerHTML) && 
+    validate['exists'](complement),
+    () => true,
+    () => true
 ]
 
 function next() {
     if (!validations[state]()) {
-        alert("invalido")
+       
         return
     }
 
