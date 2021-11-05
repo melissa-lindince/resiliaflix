@@ -5,34 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
+    <!--JS-->
+    <script defer src="assets/js/login.js"></script>
     <!--CSS-->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!--Bootstrap-->
     <link
       rel="stylesheet"
       href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
     />
-    <script defer src="login.js"></script>
   </head>
 
   <body>
     <div class="general">
       <div class="container">
-        <form class="login-form">
+        <form class="login-form" onsubmit="return (verifica())">
           <!--Logo ResiliaFlix-->
           <div class="logo">
-            <img src="../img/logo.png" alt="logo resilia" />
+            <img src="../img/logo/logo-resiliaflix.png" alt="ResiliaFlix" />
           </div>
           <!--Email input-->
           <div class="email">
             <input
               type="email"
+              name="email"
               class="email-input"
               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
               title="exemplo@exemplo.com"
+              
               required
             />
             <label>E-mail</label>
+            <div id="msgemail"></div>
           </div>
           <!--Password input-->
           <div>
@@ -56,7 +60,7 @@
           <!--Enter button-->
           <div class="container-enter-button">
             <button class="enter-button">
-              <a class="enter" href="../home-filmes/index.html">Entrar</a>
+              <a class="enter" href="../home-movies/home-movies.html">Entrar</a>
             </button>
           </div>
           <!--Registration link-->
