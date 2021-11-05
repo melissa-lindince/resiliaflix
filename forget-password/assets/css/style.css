@@ -17,8 +17,6 @@ a {
 }
 
 .general {
-  background: url("../img/background.jpeg") no-repeat center;
-  background-size: cover;
   width: 100vw;
   height: 100vh;
   display: flex;
